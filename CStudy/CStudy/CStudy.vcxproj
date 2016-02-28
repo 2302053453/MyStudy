@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E6FA8098-DDC4-495D-A0AE-2817BFAFE05D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>CStudy</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>CStudy</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CExam\BaseBall.c" />
+    <ClCompile Include="CExam\BubbleSort.c" />
+    <ClCompile Include="CExam\Calendar.c" />
+    <ClCompile Include="CExam\Ex_RPSGame.c" />
+    <ClCompile Include="CExam\ISnumber.c" />
+    <ClCompile Include="CExam\SelectionSort.c" />
+    <ClCompile Include="CExam\UpDownGame.c" />
+    <ClCompile Include="C\Ch03_OperatorFour.c" />
+    <ClCompile Include="C\Ch03_Question.c" />
+    <ClCompile Include="C\Ch03_SimpleAddThree.c" />
+    <ClCompile Include="C\Ch03_VarDeclAndInit.c" />
+    <ClCompile Include="C\Ch04_BitAndOperation.c" />
+    <ClCompile Include="C\Ch04_BitLeftShift.c" />
+    <ClCompile Include="C\Ch06_FieldWidth.c" />
+    <ClCompile Include="C\Ch07_ExecWhile.c" />
+    <ClCompile Include="C\Ch07_ForAddToNum.c" />
+    <ClCompile Include="C\Ch07_NineNineDan.c" />
+    <ClCompile Include="C\Ch07_Qu01.c" />
+    <ClCompile Include="C\Ch07_Qu02.c" />
+    <ClCompile Include="C\Ch07_Qu03.c" />
+    <ClCompile Include="C\Ch07_Qu04.c" />
+    <ClCompile Include="C\Ch07_Qu05.c" />
+    <ClCompile Include="C\Ch07_Qu06.c" />
+    <ClCompile Include="C\Ch07_qu07.c" />
+    <ClCompile Include="C\Ch07_Qu08.c" />
+    <ClCompile Include="C\Ch07_Qu09.c" />
+    <ClCompile Include="C\Ch07_Qu10.c" />
+    <ClCompile Include="C\Ch07_SimpleWhile.c" />
+    <ClCompile Include="C\Ch07_TwoToNine.c" />
+    <ClCompile Include="C\Ch07_UsefulDoWhile.c" />
+    <ClCompile Include="C\Ch08_AbsoCompare.c" />
+    <ClCompile Include="C\Ch08_BreakBasic.c" />
+    <ClCompile Include="C\Ch08_CalTwo.c" />
+    <ClCompile Include="C\Ch08_ContinueBasic.c" />
+    <ClCompile Include="C\Ch08_GoToBasic.c" />
+    <ClCompile Include="C\Ch08_IfBasic.c" />
+    <ClCompile Include="C\Ch08_IfElseBasic.c" />
+    <ClCompile Include="C\Ch08_Qu01.c" />
+    <ClCompile Include="C\Ch08_Qu02.c" />
+    <ClCompile Include="C\Ch08_Qu03.c" />
+    <ClCompile Include="C\Ch08_Qu04.c" />
+    <ClCompile Include="C\Ch08_Qu05.c" />
+    <ClCompile Include="C\Ch08_SwitchEnglishSchool2.c" />
+    <ClCompile Include="C\Ch08_ThreeOperand.c" />
+    <ClCompile Include="C\Ch09_ReculsiveFactorial.c" />
+    <ClCompile Include="C\Ch09_GlovalVariable.c" />
+    <ClCompile Include="C\Ch09_LocalValHideGlobalVal.c" />
+    <ClCompile Include="C\Ch09_LocalValHideVal.c" />
+    <ClCompile Include="C\Ch09_Qu01.c" />
+    <ClCompile Include="C\Ch09_Qu02.c" />
+    <ClCompile Include="C\Ch09_Qu03.c" />
+    <ClCompile Include="C\Ch09_ReculsiveFunc.c" />
+    <ClCompile Include="C\Ch09_SimpleAddFunc.c" />
+    <ClCompile Include="C\Ch09_SmartAddFunc.c" />
+    <ClCompile Include="C\Ch09_StaticLocalVariable.c" />
+    <ClCompile Include="C\Ch11_ArrayAccess.c" />
+    <ClCompile Include="C\Ch11_ArrayInit.c" />
+    <ClCompile Include="C\Ch11_ArrayString.c" />
+    <ClCompile Include="C\Ch11_ReadString.c" />
+    <ClCompile Include="C\Ch12_PointerOperation.c" />
+    <ClCompile Include="C\Ch12_Quiz.c" />
+    <ClCompile Include="C\Ch13_ArrayNameIsPointer.c" />
+    <ClCompile Include="C\Ch13_ArrayNameType.c" />
+    <ClCompile Include="C\Ch13_PointerBAseArrayAccess.c" />
+    <ClCompile Include="C\Ch13_PointerOperationResult.c" />
+    <ClCompile Include="C\Ch13_StringArray.c" />
+    <ClCompile Include="C\Ch13_TwoStringType.c" />
+    <ClCompile Include="C\Ch14_ArrayParam.c" />
+    <ClCompile Include="C\Ch14_CallByRefSwap.c" />
+    <ClCompile Include="C\Ch14_CallByValueSwap.c" />
+    <ClCompile Include="C\Ch16-ThreeDimArrayAccess.c" />
+    <ClCompile Include="C\Ch16-TwoDidArraySize.c" />
+    <ClCompile Include="C\Ch16-TwoDimArraySize.c" />
+    <ClCompile Include="C\Ch17_DoublepointerAccess.c" />
+    <ClCompile Include="C\Qu11-01.c" />
+    <ClCompile Include="C\Qu11-02.c" />
+    <ClCompile Include="C\Qu11-03.c" />
+    <ClCompile Include="C\Qu11-04.c" />
+    <ClCompile Include="C\Qu11-05.c" />
+    <ClCompile Include="C\Qu13_11.c" />
+    <ClCompile Include="C\Qu13_12.c" />
+    <ClCompile Include="C\Qu13_13.c" />
+    <ClCompile Include="C\Qu13_14.c" />
+    <ClCompile Include="C\Qu15_01.c" />
+    <ClCompile Include="C\Qu15_02.c" />
+    <ClCompile Include="C\Qu15_03.c" />
+    <ClCompile Include="C\Qu15_04.c" />
+    <ClCompile Include="C\Qu16-1.c" />
+    <ClCompile Include="C\Qu16-2.c" />
+    <ClCompile Include="C\Qu16-3.c" />
+    <ClCompile Include="C\Qu20_01.c" />
+    <ClCompile Include="C\Qu20_02.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

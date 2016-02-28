@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\C">
+      <UniqueIdentifier>{6414f00a-8ad8-4e5e-9cca-5c32221f49a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\C\Ch03">
+      <UniqueIdentifier>{e84a079e-3e52-4db4-a529-098a064ad546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\C\Ch04">
+      <UniqueIdentifier>{0b5e7ea6-0023-4521-8e18-3e1c8732fec1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\C\Ch06~Ch07">
+      <UniqueIdentifier>{2d5d3c1c-344c-4648-b6da-e875144797e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\C\Ch06~Ch07\Quiz">
+      <UniqueIdentifier>{e2a5c1a4-e135-456f-9a0c-fbda25bde6de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\C\Ch08">
+      <UniqueIdentifier>{d146d00d-5a5d-4540-9a98-71e8146a2dae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\C\Ch08\Quiz">
+      <UniqueIdentifier>{2c6ae3cc-3d03-472b-b968-5b7320b677a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\C\Ch09">
+      <UniqueIdentifier>{2a14e3e2-5023-4dae-aa0b-be4c51a23cbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\C\Ch09\Quiz">
+      <UniqueIdentifier>{a3444f5b-8041-462d-aaff-2594fdc84fab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\C\Ch10">
+      <UniqueIdentifier>{aa9ec6ec-7ecd-47a0-8d70-7c7f9c2f21ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\C\Ch10\Quiz">
+      <UniqueIdentifier>{b0cc7613-54d1-4fbd-8633-d47dc4b529bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\C\Ch11">
+      <UniqueIdentifier>{099321e2-37a9-4f35-b7ef-8465faaf5eed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\C\Ch12">
+      <UniqueIdentifier>{f9f47854-bbe5-432b-9405-3c4ef2217481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\C\Ch13">
+      <UniqueIdentifier>{3c2389f2-1e38-419d-a343-7c0a9276f5df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\C\Ch14">
+      <UniqueIdentifier>{e2c47866-974d-46ff-98bc-c587e2e36c90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\C\Ch13\Quiz">
+      <UniqueIdentifier>{c495ff2e-af4a-48f7-9464-92eb0a2ffc93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\C\Ch11\Quiz">
+      <UniqueIdentifier>{0da19199-2bdd-4dd8-b4e7-06e2a476fd7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\C\Ch15">
+      <UniqueIdentifier>{9c3ef662-86dc-491a-956f-a8b894e4c755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\C\Ch15\Quiz">
+      <UniqueIdentifier>{62c4c819-c03b-4a84-9998-a6ddec0cf678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\C\Ch16">
+      <UniqueIdentifier>{33e702d5-cc89-4ad3-87af-c01eeb94bb8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\C\Ch20">
+      <UniqueIdentifier>{5729435e-379e-488c-b7a6-4db9d6e35eb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\C\Ch20\Quiz">
+      <UniqueIdentifier>{c59bd88a-3bf5-4e24-add4-ad91231ee84e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\C\Ch17">
+      <UniqueIdentifier>{1a3c2411-2732-4f28-b156-eb3d21e6579c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Exam">
+      <UniqueIdentifier>{bb6479f0-ff96-4cd0-b0a5-ddb5bb40e25f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C\Ch03_VarDeclAndInit.c">
+      <Filter>소스 파일\C\Ch03</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch03_SimpleAddThree.c">
+      <Filter>소스 파일\C\Ch03</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch03_Question.c">
+      <Filter>소스 파일\C\Ch03</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch03_OperatorFour.c">
+      <Filter>소스 파일\C\Ch03</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch04_BitAndOperation.c">
+      <Filter>소스 파일\C\Ch04</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch04_BitLeftShift.c">
+      <Filter>소스 파일\C\Ch04</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch06_FieldWidth.c">
+      <Filter>소스 파일\C\Ch06~Ch07</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch07_ExecWhile.c">
+      <Filter>소스 파일\C\Ch06~Ch07</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch07_ForAddToNum.c">
+      <Filter>소스 파일\C\Ch06~Ch07</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch07_NineNineDan.c">
+      <Filter>소스 파일\C\Ch06~Ch07</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch07_SimpleWhile.c">
+      <Filter>소스 파일\C\Ch06~Ch07</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch07_TwoToNine.c">
+      <Filter>소스 파일\C\Ch06~Ch07</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch07_UsefulDoWhile.c">
+      <Filter>소스 파일\C\Ch06~Ch07</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch07_Qu01.c">
+      <Filter>소스 파일\C\Ch06~Ch07\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch07_Qu02.c">
+      <Filter>소스 파일\C\Ch06~Ch07\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch07_Qu03.c">
+      <Filter>소스 파일\C\Ch06~Ch07\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch07_Qu04.c">
+      <Filter>소스 파일\C\Ch06~Ch07\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch07_Qu05.c">
+      <Filter>소스 파일\C\Ch06~Ch07\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch07_Qu06.c">
+      <Filter>소스 파일\C\Ch06~Ch07\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch07_qu07.c">
+      <Filter>소스 파일\C\Ch06~Ch07\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch07_Qu08.c">
+      <Filter>소스 파일\C\Ch06~Ch07\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch07_Qu09.c">
+      <Filter>소스 파일\C\Ch06~Ch07\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch07_Qu10.c">
+      <Filter>소스 파일\C\Ch06~Ch07\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch08_ThreeOperand.c">
+      <Filter>소스 파일\C\Ch08</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch08_SwitchEnglishSchool2.c">
+      <Filter>소스 파일\C\Ch08</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch08_IfElseBasic.c">
+      <Filter>소스 파일\C\Ch08</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch08_IfBasic.c">
+      <Filter>소스 파일\C\Ch08</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch08_GoToBasic.c">
+      <Filter>소스 파일\C\Ch08</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch08_ContinueBasic.c">
+      <Filter>소스 파일\C\Ch08</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch08_CalTwo.c">
+      <Filter>소스 파일\C\Ch08</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch08_BreakBasic.c">
+      <Filter>소스 파일\C\Ch08</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch08_AbsoCompare.c">
+      <Filter>소스 파일\C\Ch08</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch08_Qu01.c">
+      <Filter>소스 파일\C\Ch08\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch08_Qu02.c">
+      <Filter>소스 파일\C\Ch08\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch08_Qu03.c">
+      <Filter>소스 파일\C\Ch08\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch08_Qu04.c">
+      <Filter>소스 파일\C\Ch08\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch08_Qu05.c">
+      <Filter>소스 파일\C\Ch08\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch09_ReculsiveFactorial.c">
+      <Filter>소스 파일\C\Ch09</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch09_StaticLocalVariable.c">
+      <Filter>소스 파일\C\Ch09</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch09_SmartAddFunc.c">
+      <Filter>소스 파일\C\Ch09</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch09_SimpleAddFunc.c">
+      <Filter>소스 파일\C\Ch09</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch09_ReculsiveFunc.c">
+      <Filter>소스 파일\C\Ch09</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch09_LocalValHideVal.c">
+      <Filter>소스 파일\C\Ch09</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch09_LocalValHideGlobalVal.c">
+      <Filter>소스 파일\C\Ch09</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch09_GlovalVariable.c">
+      <Filter>소스 파일\C\Ch09</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch09_Qu01.c">
+      <Filter>소스 파일\C\Ch09\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch09_Qu02.c">
+      <Filter>소스 파일\C\Ch09\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch09_Qu03.c">
+      <Filter>소스 파일\C\Ch09\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch11_ArrayAccess.c">
+      <Filter>소스 파일\C\Ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch11_ArrayInit.c">
+      <Filter>소스 파일\C\Ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch11_ArrayString.c">
+      <Filter>소스 파일\C\Ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch11_ReadString.c">
+      <Filter>소스 파일\C\Ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch12_PointerOperation.c">
+      <Filter>소스 파일\C\Ch12</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch12_Quiz.c">
+      <Filter>소스 파일\C\Ch12</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch13_ArrayNameIsPointer.c">
+      <Filter>소스 파일\C\Ch13</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch13_ArrayNameType.c">
+      <Filter>소스 파일\C\Ch13</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch13_PointerBAseArrayAccess.c">
+      <Filter>소스 파일\C\Ch13</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch13_PointerOperationResult.c">
+      <Filter>소스 파일\C\Ch13</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch13_StringArray.c">
+      <Filter>소스 파일\C\Ch13</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch13_TwoStringType.c">
+      <Filter>소스 파일\C\Ch13</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch14_ArrayParam.c">
+      <Filter>소스 파일\C\Ch14</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch14_CallByRefSwap.c">
+      <Filter>소스 파일\C\Ch14</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch14_CallByValueSwap.c">
+      <Filter>소스 파일\C\Ch14</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Qu13_11.c">
+      <Filter>소스 파일\C\Ch13\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Qu13_12.c">
+      <Filter>소스 파일\C\Ch13\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Qu13_13.c">
+      <Filter>소스 파일\C\Ch13\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Qu13_14.c">
+      <Filter>소스 파일\C\Ch13\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Qu11-01.c">
+      <Filter>소스 파일\C\Ch11\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Qu11-02.c">
+      <Filter>소스 파일\C\Ch11\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Qu11-03.c">
+      <Filter>소스 파일\C\Ch11\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Qu11-04.c">
+      <Filter>소스 파일\C\Ch11\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Qu11-05.c">
+      <Filter>소스 파일\C\Ch11\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch16-ThreeDimArrayAccess.c">
+      <Filter>소스 파일\C\Ch16</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch16-TwoDidArraySize.c">
+      <Filter>소스 파일\C\Ch16</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch16-TwoDimArraySize.c">
+      <Filter>소스 파일\C\Ch16</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Qu16-1.c">
+      <Filter>소스 파일\C\Ch16</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Qu16-2.c">
+      <Filter>소스 파일\C\Ch16</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Qu16-3.c">
+      <Filter>소스 파일\C\Ch16</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Qu20_02.c">
+      <Filter>소스 파일\C\Ch20\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Qu20_01.c">
+      <Filter>소스 파일\C\Ch20\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Qu15_04.c">
+      <Filter>소스 파일\C\Ch15\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Qu15_03.c">
+      <Filter>소스 파일\C\Ch15\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Qu15_01.c">
+      <Filter>소스 파일\C\Ch15\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Qu15_02.c">
+      <Filter>소스 파일\C\Ch15\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Ch17_DoublepointerAccess.c">
+      <Filter>소스 파일\C\Ch17</Filter>
+    </ClCompile>
+    <ClCompile Include="CExam\BubbleSort.c">
+      <Filter>소스 파일\Exam</Filter>
+    </ClCompile>
+    <ClCompile Include="CExam\Ex_RPSGame.c">
+      <Filter>소스 파일\Exam</Filter>
+    </ClCompile>
+    <ClCompile Include="CExam\ISnumber.c">
+      <Filter>소스 파일\Exam</Filter>
+    </ClCompile>
+    <ClCompile Include="CExam\SelectionSort.c">
+      <Filter>소스 파일\Exam</Filter>
+    </ClCompile>
+    <ClCompile Include="CExam\UpDownGame.c">
+      <Filter>소스 파일\Exam</Filter>
+    </ClCompile>
+    <ClCompile Include="CExam\BaseBall.c">
+      <Filter>소스 파일\Exam</Filter>
+    </ClCompile>
+    <ClCompile Include="CExam\Calendar.c">
+      <Filter>소스 파일\Exam</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
