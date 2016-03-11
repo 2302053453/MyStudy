@@ -146,6 +146,7 @@
     <ClCompile Include="CExam\BaseBall.c" />
     <ClCompile Include="CExam\BubbleSort.c" />
     <ClCompile Include="CExam\Calendar.c" />
+    <ClCompile Include="CExam\Calendar_ver2.c" />
     <ClCompile Include="CExam\Ex_RPSGame.c" />
     <ClCompile Include="CExam\ISnumber.c" />
     <ClCompile Include="CExam\SelectionSort.c" />
@@ -195,6 +196,32 @@
     <ClCompile Include="C\Chapter20\Quiz\Qu20_01.c" />
     <ClCompile Include="C\Chapter20\Quiz\Qu20_02.c" />
     <ClCompile Include="C\Chapter22\Ch22_TwoPointDistance.c" />
+    <ClCompile Include="C\Chapter26\Ch26_elif_endif.c" />
+    <ClCompile Include="C\Chapter26\Ch26_ifdef_endif.c" />
+    <ClCompile Include="C\Chapter26\Ch26_if_endif.c" />
+    <ClCompile Include="C\Chapter26\Ch26_MacroConst.c" />
+    <ClCompile Include="C\Chapter26\Ch26_MacroFunction.c" />
+    <ClCompile Include="C\Chapter26\Ch26_MacroOpToString.c" />
+    <ClCompile Include="C\Chapter26\Ch26_MacroUseMacro.c" />
+    <ClCompile Include="C\Chapter26\Ch26_UnivStdNum.c" />
+    <ClCompile Include="C\Chapter26\Quiz\Qu26_01.c" />
+    <ClCompile Include="C\Chapter26\Quiz\Qu26_02.C" />
+    <ClCompile Include="C\Chapter26\Quiz\Qu26_03.c" />
+    <ClCompile Include="C\Chapter27\Ch27_01\01_Func.c" />
+    <ClCompile Include="C\Chapter27\Ch27_01\01_main.c" />
+    <ClCompile Include="C\Chapter27\Ch27_01\01_Num.c" />
+    <ClCompile Include="C\Chapter27\Ch27_02\02_main.c" />
+    <ClCompile Include="C\Chapter27\Ch27_03\03_AreaArith.c" />
+    <ClInclude Include="C\Chapter27\Ch27_02\02_header1.h" />
+    <ClInclude Include="C\Chapter27\Ch27_02\02_header2.h" />
+    <ClInclude Include="C\Chapter27\Ch27_03\03_BasicArith.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClCompile Include="C\Chapter27\Ch27_03\03_BasicArith.c" />
+    <ClCompile Include="C\Chapter27\Ch27_03\03_main.c" />
+    <ClCompile Include="C\Chapter27\Ch27_03\03_RoundArith.c" />
+    <ClCompile Include="C\Chapter27\Ch27_04\04_Intdiv2.c" />
+    <ClCompile Include="C\Chapter27\Ch27_04\04_main.c" />
     <ClCompile Include="C\Chapter3\Ch03_OperatorFour.c" />
     <ClCompile Include="C\Chapter3\Ch03_Question.c" />
     <ClCompile Include="C\Chapter3\Ch03_SimpleAddThree.c" />
@@ -244,6 +271,12 @@
     <ClCompile Include="C\Chapter9\Quiz\Ch09_Qu01.c" />
     <ClCompile Include="C\Chapter9\Quiz\Ch09_Qu02.c" />
     <ClCompile Include="C\Chapter9\Quiz\Ch09_Qu03.c" />
+    <ClInclude Include="C\Chapter27\Ch27_04\04_Intdiv4.h" />
+    <ClInclude Include="C\Chapter27\Ch27_04\04_stdiv.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C\Chapter27\Ch27_03\03_AreaArith.h" />
+    <ClInclude Include="C\Chapter27\Ch27_03\03_RoundArith.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

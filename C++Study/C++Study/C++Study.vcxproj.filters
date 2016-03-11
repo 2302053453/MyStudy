@@ -31,6 +31,12 @@
     <Filter Include="소스 파일\STL\Chapter5_Vector">
       <UniqueIdentifier>{eb8551ec-b1ed-41db-abfb-a9ce7dfabd53}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\STL\Chapter6_Deque">
+      <UniqueIdentifier>{2d121877-6815-4e5d-a98c-e73a1df49214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\STL\Chapter7_Hash_Map">
+      <UniqueIdentifier>{65c29a9b-cea3-40e6-9213-03a21d42ba4e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="STL\Chapter3_Class template\Chapter3_01.cpp">
@@ -104,6 +110,21 @@
     </ClCompile>
     <ClCompile Include="STL\Chapter5_Vector\Chapter5_Exam_02.cpp">
       <Filter>소스 파일\STL\Chapter5_Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter6_01.cpp">
+      <Filter>소스 파일\STL\Chapter6_Deque</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter6_02.cpp">
+      <Filter>소스 파일\STL\Chapter6_Deque</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter6_Exam_01.cpp">
+      <Filter>소스 파일\STL\Chapter6_Deque</Filter>
+    </ClCompile>
+    <ClCompile Include="STL\Chapter7_Hash_Map\Chapter7_01.cpp">
+      <Filter>소스 파일\STL\Chapter7_Hash_Map</Filter>
+    </ClCompile>
+    <ClCompile Include="STL\Chapter7_Hash_Map\Chapter7_02.cpp">
+      <Filter>소스 파일\STL\Chapter7_Hash_Map</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

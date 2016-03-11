@@ -19,6 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Chapter6_01.cpp" />
+    <ClCompile Include="Chapter6_02.cpp" />
+    <ClCompile Include="Chapter6_Exam_01.cpp" />
     <ClCompile Include="STL\Chapter3_Class template\Chapter3_01.cpp" />
     <ClCompile Include="STL\Chapter3_Class template\Chapter3_03.cpp" />
     <ClCompile Include="STL\Chapter3_Class template\Chapter3_06.cpp" />
@@ -43,6 +46,8 @@
     <ClCompile Include="STL\Chapter5_Vector\Chapter5_05.cpp" />
     <ClCompile Include="STL\Chapter5_Vector\Chapter5_Exam_01.cpp" />
     <ClCompile Include="STL\Chapter5_Vector\Chapter5_Exam_02.cpp" />
+    <ClCompile Include="STL\Chapter7_Hash_Map\Chapter7_01.cpp" />
+    <ClCompile Include="STL\Chapter7_Hash_Map\Chapter7_02.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="STL\Chapter3_Class template\Chapter3_12.h" />

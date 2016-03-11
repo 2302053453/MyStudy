@@ -91,6 +91,27 @@
     <Filter Include="소스 파일\C\Ch22">
       <UniqueIdentifier>{1cfc4eb2-d43e-42c8-b144-d04ae9f1bfd6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\C\Ch26">
+      <UniqueIdentifier>{c4e71224-3dea-4711-9dfd-f27617cde9a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\C\Ch26\Quiz">
+      <UniqueIdentifier>{facd5db6-3415-413b-bda5-e2381112087d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\C\Ch27">
+      <UniqueIdentifier>{47611247-07ed-4470-bee5-83ed78d3899a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\C\Ch27\01">
+      <UniqueIdentifier>{7859773e-221b-4c5d-a414-cbe278e19b91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\C\Ch27\02">
+      <UniqueIdentifier>{f2fb2429-d369-40b9-85d2-d63ca7cc6dbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\C\Ch27\03">
+      <UniqueIdentifier>{3d4f3ac7-716e-43ad-bd13-fd125b16ef4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\C\Ch27\04">
+      <UniqueIdentifier>{719b1b05-8f2a-4a43-9ed3-98d750373108}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CExam\BubbleSort.c">
@@ -396,5 +417,94 @@
     <ClCompile Include="C\Chapter22\Ch22_TwoPointDistance.c">
       <Filter>소스 파일\C\Ch22</Filter>
     </ClCompile>
+    <ClCompile Include="C\Chapter26\Ch26_elif_endif.c">
+      <Filter>소스 파일\C\Ch26</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Chapter26\Ch26_if_endif.c">
+      <Filter>소스 파일\C\Ch26</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Chapter26\Ch26_ifdef_endif.c">
+      <Filter>소스 파일\C\Ch26</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Chapter26\Ch26_MacroConst.c">
+      <Filter>소스 파일\C\Ch26</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Chapter26\Ch26_MacroFunction.c">
+      <Filter>소스 파일\C\Ch26</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Chapter26\Ch26_MacroOpToString.c">
+      <Filter>소스 파일\C\Ch26</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Chapter26\Ch26_MacroUseMacro.c">
+      <Filter>소스 파일\C\Ch26</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Chapter26\Ch26_UnivStdNum.c">
+      <Filter>소스 파일\C\Ch26</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Chapter26\Quiz\Qu26_02.C">
+      <Filter>소스 파일\C\Ch26\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Chapter26\Quiz\Qu26_03.c">
+      <Filter>소스 파일\C\Ch26\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Chapter26\Quiz\Qu26_01.c">
+      <Filter>소스 파일\C\Ch26\Quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Chapter27\Ch27_01\01_Func.c">
+      <Filter>소스 파일\C\Ch27\01</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Chapter27\Ch27_01\01_main.c">
+      <Filter>소스 파일\C\Ch27\01</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Chapter27\Ch27_01\01_Num.c">
+      <Filter>소스 파일\C\Ch27\01</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Chapter27\Ch27_03\03_AreaArith.c">
+      <Filter>소스 파일\C\Ch27\03</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Chapter27\Ch27_03\03_BasicArith.c">
+      <Filter>소스 파일\C\Ch27\03</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Chapter27\Ch27_03\03_main.c">
+      <Filter>소스 파일\C\Ch27\03</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Chapter27\Ch27_03\03_RoundArith.c">
+      <Filter>소스 파일\C\Ch27\03</Filter>
+    </ClCompile>
+    <ClCompile Include="CExam\Calendar_ver2.c">
+      <Filter>소스 파일\Exam</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Chapter27\Ch27_02\02_main.c">
+      <Filter>소스 파일\C\Ch27\02</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Chapter27\Ch27_04\04_Intdiv2.c">
+      <Filter>소스 파일\C\Ch27\04</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Chapter27\Ch27_04\04_main.c">
+      <Filter>소스 파일\C\Ch27\04</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C\Chapter27\Ch27_03\03_AreaArith.h">
+      <Filter>소스 파일\C\Ch27\03</Filter>
+    </ClInclude>
+    <ClInclude Include="C\Chapter27\Ch27_03\03_RoundArith.h">
+      <Filter>소스 파일\C\Ch27\03</Filter>
+    </ClInclude>
+    <ClInclude Include="C\Chapter27\Ch27_03\03_BasicArith.h">
+      <Filter>소스 파일\C\Ch27\03</Filter>
+    </ClInclude>
+    <ClInclude Include="C\Chapter27\Ch27_02\02_header1.h">
+      <Filter>소스 파일\C\Ch27\02</Filter>
+    </ClInclude>
+    <ClInclude Include="C\Chapter27\Ch27_02\02_header2.h">
+      <Filter>소스 파일\C\Ch27\02</Filter>
+    </ClInclude>
+    <ClInclude Include="C\Chapter27\Ch27_04\04_stdiv.h">
+      <Filter>소스 파일\C\Ch27\04</Filter>
+    </ClInclude>
+    <ClInclude Include="C\Chapter27\Ch27_04\04_Intdiv4.h">
+      <Filter>소스 파일\C\Ch27\04</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
