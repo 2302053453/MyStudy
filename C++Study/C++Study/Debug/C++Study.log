@@ -1,4 +1,6 @@
-﻿  Chapter7_02.cpp
+﻿  Chapter8_01.cpp
+  Chapter08_Exam_01.cpp
+  Chapter7_02.cpp
   Chapter7_01.cpp
   Chapter5_Exam_02.cpp
   Chapter5_Exam_01.cpp
@@ -16,10 +18,10 @@
   Chapter4_03.cpp
   Chapter4_02.cpp
   Chapter4_01.cpp
-  Chapter3_12.cpp
-  Chapter3_11.cpp
   코드를 생성하고 있습니다...
   컴파일하고 있습니다...
+  Chapter3_12.cpp
+  Chapter3_11.cpp
   Chapter3_10.cpp
   Chapter3_09.cpp
   Chapter3_07.cpp
@@ -30,5 +32,5 @@
   Chapter6_02.cpp
   Chapter6_01.cpp
   코드를 생성하고 있습니다...
-  C++Study.vcxproj -> C:\Users\ky3-4\Source\Repos\MyStudy\C++Study\Debug\C++Study.exe
-  C++Study.vcxproj -> C:\Users\ky3-4\Source\Repos\MyStudy\C++Study\Debug\C++Study.pdb (Partial PDB)
+  C++Study.vcxproj -> C:\Users\Jung Hokyun\Documents\GIT\C++Study\Debug\C++Study.exe
+  C++Study.vcxproj -> C:\Users\Jung Hokyun\Documents\GIT\C++Study\Debug\C++Study.pdb (Partial PDB)
