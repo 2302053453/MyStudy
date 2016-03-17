@@ -19,6 +19,55 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="C++\Chapter1_Basic\Array_Input.cpp" />
+    <ClCompile Include="C++\Chapter2_Basic\2. CallByAddress.cpp" />
+    <ClCompile Include="C++\Chapter1_Basic\1. cout.cpp" />
+    <ClCompile Include="C++\Chapter1_Basic\2. cin.cpp" />
+    <ClCompile Include="C++\Chapter1_Basic\DefaultValue1.cpp" />
+    <ClCompile Include="C++\Chapter1_Basic\DefaultValue2.cpp" />
+    <ClCompile Include="C++\Chapter1_Basic\DefaultValue3.cpp" />
+    <ClCompile Include="C++\Chapter1_Basic\Local_Variable.cpp" />
+    <ClCompile Include="C++\Chapter1_Basic\Namespace.cpp" />
+    <ClCompile Include="C++\Chapter1_Basic\Namespace2.cpp" />
+    <ClCompile Include="C++\Chapter1_Basic\Namespace3.cpp" />
+    <ClCompile Include="C++\Chapter1_Basic\OverLoading.cpp" />
+    <ClCompile Include="C++\Chapter2_Basic\3. CallByReference.cpp" />
+    <ClCompile Include="C++\Chapter1_Basic\UsingNamespace.cpp" />
+    <ClCompile Include="C++\Chapter2_Basic\1. CallByValue.cpp" />
+    <ClCompile Include="C++\Chapter2_Basic\4. ReferenceArrayElement.cpp" />
+    <ClCompile Include="C++\Chapter2_Basic\5. ReferenceFuction.cpp" />
+    <ClCompile Include="C++\Chapter2_Basic\6. NotReferenceFunction.cpp" />
+    <ClCompile Include="C++\Chapter2_Basic\7. NewAndDelete.cpp" />
+    <ClCompile Include="C++\Chapter2_Basic\8. StandardCpp.cpp" />
+    <ClCompile Include="C++\Chapter3_ClassAndInheritance\1. Struct.cpp" />
+    <ClCompile Include="C++\Chapter3_ClassAndInheritance\10. OverRiding.cpp" />
+    <ClCompile Include="C++\Chapter3_ClassAndInheritance\11. VirtualClass.cpp" />
+    <ClCompile Include="C++\Chapter3_ClassAndInheritance\12. PureVirtualFunction.cpp" />
+    <ClCompile Include="C++\Chapter3_ClassAndInheritance\2. FunctionInStruct.cpp" />
+    <ClCompile Include="C++\Chapter3_ClassAndInheritance\3. FunctionOuterStruct.cpp" />
+    <ClCompile Include="C++\Chapter3_ClassAndInheritance\4. Car.cpp" />
+    <ClCompile Include="C++\Chapter3_ClassAndInheritance\4. FileSeperate.cpp" />
+    <ClCompile Include="C++\Chapter3_ClassAndInheritance\5. Practice.cpp" />
+    <ClCompile Include="C++\Chapter3_ClassAndInheritance\6. Inheritance.cpp" />
+    <ClCompile Include="C++\Chapter3_ClassAndInheritance\7. PermissionOfInheritance.cpp" />
+    <ClCompile Include="C++\Chapter3_ClassAndInheritance\8. MultipleInheritance.cpp" />
+    <ClCompile Include="C++\Chapter3_ClassAndInheritance\9. RelationOfClass.cpp" />
+    <ClCompile Include="C++\Chapter4_Template\1. template.cpp" />
+    <ClCompile Include="C++\Chapter4_Template\2. DifferentType.cpp" />
+    <ClCompile Include="C++\Chapter4_Template\3. TemplateClass.cpp" />
+    <ClCompile Include="C++\Chapter4_Template\5. Assignment Operator.cpp" />
+    <ClCompile Include="C++\Chapter5_Vector\1. Vector.cpp" />
+    <ClCompile Include="C++\Chapter5_Vector\2. Iterator.cpp" />
+    <ClCompile Include="C++\Chapter5_Vector\3. ClassInVector.cpp" />
+    <ClCompile Include="C++\Chapter4_Template\4. Operator overloading.cpp" />
+    <ClCompile Include="C++\Chapter6_String\1. String.cpp" />
+    <ClCompile Include="C++\Chapter6_String\2. StringAppend.cpp" />
+    <ClCompile Include="C++\Chapter6_String\3. Method.cpp" />
+    <ClCompile Include="C++\Chapter6_String\4. RemoveCharInString.cpp" />
+    <ClCompile Include="C++\Chapter6_String\5. Find.cpp" />
+    <ClCompile Include="C++\Chapter6_String\6. Replace.cpp" />
+    <ClCompile Include="C++\Chapter6_String\7. SubString.cpp" />
+    <ClCompile Include="C++\Chapter6_String\8. Convert.cpp" />
     <ClCompile Include="STL\Chapter6_Deque\Chapter6_01.cpp" />
     <ClCompile Include="STL\Chapter6_Deque\Chapter6_02.cpp" />
     <ClCompile Include="STL\Chapter6_Deque\Chapter6_Exam_01.cpp" />
@@ -52,6 +101,7 @@
     <ClCompile Include="STL\Chapter8_Map\Chapter8_01.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="C++\Chapter3_ClassAndInheritance\4. Car.h" />
     <ClInclude Include="STL\Chapter3_Class template\Chapter3_12.h" />
   </ItemGroup>
   <ItemGroup>
@@ -113,6 +163,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -129,10 +180,12 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">

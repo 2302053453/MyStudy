@@ -132,6 +132,153 @@
     <ClCompile Include="STL\Chapter8_Map\Chapter08_Exam_01.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="C++\Chapter1_Basic\Local_Variable.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter1_Basic\Array_Input.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter1_Basic\OverLoading.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter1_Basic\DefaultValue1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter1_Basic\DefaultValue2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter1_Basic\DefaultValue3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter1_Basic\Namespace.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter1_Basic\Namespace2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter1_Basic\Namespace3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter1_Basic\UsingNamespace.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter1_Basic\1. cout.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter1_Basic\2. cin.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter2_Basic\1. CallByValue.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter2_Basic\2. CallByAddress.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter2_Basic\3. CallByReference.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter2_Basic\4. ReferenceArrayElement.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter2_Basic\5. ReferenceFuction.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter2_Basic\6. NotReferenceFunction.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter2_Basic\7. NewAndDelete.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter2_Basic\8. StandardCpp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter3_ClassAndInheritance\1. Struct.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter3_ClassAndInheritance\2. FunctionInStruct.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter3_ClassAndInheritance\3. FunctionOuterStruct.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter3_ClassAndInheritance\4. Car.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter3_ClassAndInheritance\4. FileSeperate.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter3_ClassAndInheritance\5. Practice.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter3_ClassAndInheritance\6. Inheritance.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter3_ClassAndInheritance\7. PermissionOfInheritance.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter3_ClassAndInheritance\8. MultipleInheritance.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter3_ClassAndInheritance\9. RelationOfClass.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter3_ClassAndInheritance\11. VirtualClass.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter3_ClassAndInheritance\12. PureVirtualFunction.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter3_ClassAndInheritance\10. OverRiding.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter4_Template\1. template.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter4_Template\2. DifferentType.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter4_Template\3. TemplateClass.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter5_Vector\1. Vector.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter5_Vector\2. Iterator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter5_Vector\3. ClassInVector.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter4_Template\4. Operator overloading.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter4_Template\5. Assignment Operator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter6_String\1. String.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter6_String\2. StringAppend.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter6_String\3. Method.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter6_String\4. RemoveCharInString.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter6_String\5. Find.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter6_String\6. Replace.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter6_String\7. SubString.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++\Chapter6_String\8. Convert.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="STL\Chapter3_Class template\Chapter3_12.inl">
@@ -141,6 +288,9 @@
   <ItemGroup>
     <ClInclude Include="STL\Chapter3_Class template\Chapter3_12.h">
       <Filter>헤더 파일\Chapter3 Class Template</Filter>
+    </ClInclude>
+    <ClInclude Include="C++\Chapter3_ClassAndInheritance\4. Car.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
