@@ -68,6 +68,17 @@
     <ClCompile Include="C++\Chapter6_String\6. Replace.cpp" />
     <ClCompile Include="C++\Chapter6_String\7. SubString.cpp" />
     <ClCompile Include="C++\Chapter6_String\8. Convert.cpp" />
+    <ClCompile Include="STL\Chapter10_Algorithm\1. find.cpp" />
+    <ClCompile Include="STL\Chapter10_Algorithm\11. inner_product.cpp" />
+    <ClCompile Include="STL\Chapter10_Algorithm\2. find_if.cpp" />
+    <ClCompile Include="STL\Chapter10_Algorithm\3. for_each.cpp" />
+    <ClCompile Include="STL\Chapter10_Algorithm\4. generate.cpp" />
+    <ClCompile Include="STL\Chapter10_Algorithm\5. copy.cpp" />
+    <ClCompile Include="STL\Chapter10_Algorithm\6. remove.cpp" />
+    <ClCompile Include="STL\Chapter10_Algorithm\7. sort.cpp" />
+    <ClCompile Include="STL\Chapter10_Algorithm\8. binary search.cpp" />
+    <ClCompile Include="STL\Chapter10_Algorithm\9. merge.cpp" />
+    <ClCompile Include="STL\Chapter10_Algorithm\10. accumulate.cpp" />
     <ClCompile Include="STL\Chapter6_Deque\Chapter6_01.cpp" />
     <ClCompile Include="STL\Chapter6_Deque\Chapter6_02.cpp" />
     <ClCompile Include="STL\Chapter6_Deque\Chapter6_Exam_01.cpp" />
@@ -99,6 +110,9 @@
     <ClCompile Include="STL\Chapter7_Hash_Map\Chapter7_02.cpp" />
     <ClCompile Include="STL\Chapter8_Map\Chapter08_Exam_01.cpp" />
     <ClCompile Include="STL\Chapter8_Map\Chapter8_01.cpp" />
+    <ClCompile Include="STL\Chapter9_Set\Chapter9_01.cpp" />
+    <ClCompile Include="STL\Chapter9_Set\Chapter9_02.cpp" />
+    <ClCompile Include="STL\Chapter9_Set\Chapterr9_03.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C++\Chapter3_ClassAndInheritance\4. Car.h" />

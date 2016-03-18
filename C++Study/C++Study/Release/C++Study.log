@@ -49,6 +49,18 @@
   6. Replace.cpp
   7. SubString.cpp
   8. Convert.cpp
+  1. find.cpp
+  11. inner_product.cpp
+  2. find_if.cpp
+  3. for_each.cpp
+  4. generate.cpp
+  5. copy.cpp
+  6. remove.cpp
+  7. sort.cpp
+  8. binary search.cpp
+  9. merge.cpp
+  10. accumulate.cpp
+  컴파일하고 있습니다...
   Chapter6_01.cpp
   Chapter6_02.cpp
   Chapter6_Exam_01.cpp
@@ -60,7 +72,6 @@
   Chapter3_10.cpp
   Chapter3_11.cpp
   Chapter3_12.cpp
-  컴파일하고 있습니다...
   Chapter4_01.cpp
   Chapter4_02.cpp
   Chapter4_03.cpp
@@ -70,6 +81,7 @@
   Chapter4_07.cpp
   Chapter4_08.cpp
   Chapter4_Exam.cpp
+  컴파일하고 있습니다...
   Chapter5_01.cpp
   Chapter5_02.cpp
   Chapter5_03.cpp
@@ -81,8 +93,11 @@
   Chapter7_02.cpp
   Chapter08_Exam_01.cpp
   Chapter8_01.cpp
+  Chapter9_01.cpp
+  Chapter9_02.cpp
+  Chapterr9_03.cpp
   코드를 생성하고 있습니다.
-  All 111 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  All 125 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   코드를 생성했습니다.
   C++Study.vcxproj -> C:\Users\ky3-4\Source\Repos\MyStudy\C++Study\Release\C++Study.exe
   C++Study.vcxproj -> C:\Users\ky3-4\Source\Repos\MyStudy\C++Study\Release\C++Study.pdb (Full PDB)
