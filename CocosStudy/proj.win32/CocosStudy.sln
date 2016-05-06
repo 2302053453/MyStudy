@@ -1,0 +1,1276 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CocosStudy", "CocosStudy.vcxproj", "{76A39BB2-9B84-4C65-98A5-654D86B86F2A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{98A51BA8-FC3A-415B-AC8F-8C7BD464E93E} = {98A51BA8-FC3A-415B-AC8F-8C7BD464E93E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libcocos2d", "..\cocos2d\cocos\2d\libcocos2d.vcxproj", "{98A51BA8-FC3A-415B-AC8F-8C7BD464E93E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libbox2d", "..\cocos2d\external\Box2D\proj.win32\libbox2d.vcxproj", "{929480E7-23C0-4DF6-8456-096D71547116}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libSpine", "..\cocos2d\cocos\editor-support\spine\proj.win32\libSpine.vcxproj", "{B7C2A162-DEC9-4418-972E-240AB3CBFCAE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libbullet", "..\cocos2d\external\bullet\proj.win32\libbullet.vcxproj", "{012DFF48-A13F-4F52-B07B-F8B9D21CE95B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "librecast", "..\cocos2d\external\recast\proj.win32\librecast.vcxproj", "{41E34993-647E-4282-8384-4AB1AE31A452}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Label", "01. Label", "{C8567D9B-434C-4BAF-B811-A55EAC012819}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Menu", "02. Menu", "{517C1DF2-9984-4694-9563-BF2E2070D76F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Sprite", "03. Sprite", "{F4626B4F-2127-4EB1-AF59-704221204C14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Action", "04. Action", "{DDD2C4D5-451E-44E6-8D75-66A3F8DDBEC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Animation", "05. Animation", "{B2E639C8-0D38-4E73-A84B-DDC33E931BF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex1", "Ex1", "{58ED560E-4BD3-4E5C-8C2F-ECD6D025C3A6}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\01. Label\LabelEx1\Classes\AppDelegate.cpp = ..\Contents\01. Label\LabelEx1\Classes\AppDelegate.cpp
+		..\Contents\01. Label\LabelEx1\Classes\AppDelegate.h = ..\Contents\01. Label\LabelEx1\Classes\AppDelegate.h
+		..\Contents\01. Label\LabelEx1\Classes\HelloWorldScene.cpp = ..\Contents\01. Label\LabelEx1\Classes\HelloWorldScene.cpp
+		..\Contents\01. Label\LabelEx1\Classes\HelloWorldScene.h = ..\Contents\01. Label\LabelEx1\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex2", "Ex2", "{6EAFD009-2843-4B19-A90A-C5703C35379B}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\01. Label\LabelEx2\Classes\AppDelegate.cpp = ..\Contents\01. Label\LabelEx2\Classes\AppDelegate.cpp
+		..\Contents\01. Label\LabelEx2\Classes\AppDelegate.h = ..\Contents\01. Label\LabelEx2\Classes\AppDelegate.h
+		..\Contents\01. Label\LabelEx2\Classes\HelloWorldScene.cpp = ..\Contents\01. Label\LabelEx2\Classes\HelloWorldScene.cpp
+		..\Contents\01. Label\LabelEx2\Classes\HelloWorldScene.h = ..\Contents\01. Label\LabelEx2\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex3", "Ex3", "{E4D5BAFF-703A-4C46-96C6-0B50EFDEE53D}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\01. Label\LabelEx3\Classes\AppDelegate.cpp = ..\Contents\01. Label\LabelEx3\Classes\AppDelegate.cpp
+		..\Contents\01. Label\LabelEx3\Classes\AppDelegate.h = ..\Contents\01. Label\LabelEx3\Classes\AppDelegate.h
+		..\Contents\01. Label\LabelEx3\Classes\HelloWorldScene.cpp = ..\Contents\01. Label\LabelEx3\Classes\HelloWorldScene.cpp
+		..\Contents\01. Label\LabelEx3\Classes\HelloWorldScene.h = ..\Contents\01. Label\LabelEx3\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex4", "Ex4", "{9B7C1EE7-AA83-497B-998E-A4E69BE14768}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\01. Label\LabelEx4\Classes\AppDelegate.cpp = ..\Contents\01. Label\LabelEx4\Classes\AppDelegate.cpp
+		..\Contents\01. Label\LabelEx4\Classes\AppDelegate.h = ..\Contents\01. Label\LabelEx4\Classes\AppDelegate.h
+		..\Contents\01. Label\LabelEx4\Classes\HelloWorldScene.cpp = ..\Contents\01. Label\LabelEx4\Classes\HelloWorldScene.cpp
+		..\Contents\01. Label\LabelEx4\Classes\HelloWorldScene.h = ..\Contents\01. Label\LabelEx4\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex1", "Ex1", "{29699E5A-E4BF-4898-A7CE-22F699EEFB71}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\02. Menu\MenuEx1\Classes\AppDelegate.cpp = ..\Contents\02. Menu\MenuEx1\Classes\AppDelegate.cpp
+		..\Contents\02. Menu\MenuEx1\Classes\AppDelegate.h = ..\Contents\02. Menu\MenuEx1\Classes\AppDelegate.h
+		..\Contents\02. Menu\MenuEx1\Classes\HelloWorldScene.cpp = ..\Contents\02. Menu\MenuEx1\Classes\HelloWorldScene.cpp
+		..\Contents\02. Menu\MenuEx1\Classes\HelloWorldScene.h = ..\Contents\02. Menu\MenuEx1\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex2", "Ex2", "{B5D7C1B1-8E83-41E1-8FA1-F2AAEBAA3D40}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\02. Menu\MenuEx2\Classes\AppDelegate.cpp = ..\Contents\02. Menu\MenuEx2\Classes\AppDelegate.cpp
+		..\Contents\02. Menu\MenuEx2\Classes\AppDelegate.h = ..\Contents\02. Menu\MenuEx2\Classes\AppDelegate.h
+		..\Contents\02. Menu\MenuEx2\Classes\HelloWorldScene.cpp = ..\Contents\02. Menu\MenuEx2\Classes\HelloWorldScene.cpp
+		..\Contents\02. Menu\MenuEx2\Classes\HelloWorldScene.h = ..\Contents\02. Menu\MenuEx2\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex3", "Ex3", "{68198D3A-AE08-4654-9706-8D40CE03CDFD}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\02. Menu\MenuEx3\Classes\AppDelegate.cpp = ..\Contents\02. Menu\MenuEx3\Classes\AppDelegate.cpp
+		..\Contents\02. Menu\MenuEx3\Classes\AppDelegate.h = ..\Contents\02. Menu\MenuEx3\Classes\AppDelegate.h
+		..\Contents\02. Menu\MenuEx3\Classes\HelloWorldScene.cpp = ..\Contents\02. Menu\MenuEx3\Classes\HelloWorldScene.cpp
+		..\Contents\02. Menu\MenuEx3\Classes\HelloWorldScene.h = ..\Contents\02. Menu\MenuEx3\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex1", "Ex1", "{86CDD318-F76E-47F1-BAA3-DB489B7DC6E9}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\03. Sprite\SpriteEx1\Classes\AppDelegate.cpp = ..\Contents\03. Sprite\SpriteEx1\Classes\AppDelegate.cpp
+		..\Contents\03. Sprite\SpriteEx1\Classes\AppDelegate.h = ..\Contents\03. Sprite\SpriteEx1\Classes\AppDelegate.h
+		..\Contents\03. Sprite\SpriteEx1\Classes\HelloWorldScene.cpp = ..\Contents\03. Sprite\SpriteEx1\Classes\HelloWorldScene.cpp
+		..\Contents\03. Sprite\SpriteEx1\Classes\HelloWorldScene.h = ..\Contents\03. Sprite\SpriteEx1\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex2", "Ex2", "{781C9955-D405-45B0-A5AF-6E5FFAE1387F}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\03. Sprite\SpriteEx2\Classes\AppDelegate.cpp = ..\Contents\03. Sprite\SpriteEx2\Classes\AppDelegate.cpp
+		..\Contents\03. Sprite\SpriteEx2\Classes\AppDelegate.h = ..\Contents\03. Sprite\SpriteEx2\Classes\AppDelegate.h
+		..\Contents\03. Sprite\SpriteEx2\Classes\HelloWorldScene.cpp = ..\Contents\03. Sprite\SpriteEx2\Classes\HelloWorldScene.cpp
+		..\Contents\03. Sprite\SpriteEx2\Classes\HelloWorldScene.h = ..\Contents\03. Sprite\SpriteEx2\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex3", "Ex3", "{3681CFCD-181F-4F09-BD3D-5683751FA839}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\03. Sprite\SpriteEx3\Classes\AppDelegate.cpp = ..\Contents\03. Sprite\SpriteEx3\Classes\AppDelegate.cpp
+		..\Contents\03. Sprite\SpriteEx3\Classes\AppDelegate.h = ..\Contents\03. Sprite\SpriteEx3\Classes\AppDelegate.h
+		..\Contents\03. Sprite\SpriteEx3\Classes\HelloWorldScene.cpp = ..\Contents\03. Sprite\SpriteEx3\Classes\HelloWorldScene.cpp
+		..\Contents\03. Sprite\SpriteEx3\Classes\HelloWorldScene.h = ..\Contents\03. Sprite\SpriteEx3\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex1", "Ex1", "{D6B195BC-959F-4920-9F5C-E7B65FA12683}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\04. Action\ActionEx1\Classes\AppDelegate.cpp = ..\Contents\04. Action\ActionEx1\Classes\AppDelegate.cpp
+		..\Contents\04. Action\ActionEx1\Classes\AppDelegate.h = ..\Contents\04. Action\ActionEx1\Classes\AppDelegate.h
+		..\Contents\04. Action\ActionEx1\Classes\HelloWorldScene.cpp = ..\Contents\04. Action\ActionEx1\Classes\HelloWorldScene.cpp
+		..\Contents\04. Action\ActionEx1\Classes\HelloWorldScene.h = ..\Contents\04. Action\ActionEx1\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex2", "Ex2", "{E094A6BD-06E4-4CD7-A260-1B23DCDC9344}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\04. Action\ActionEx2\Classes\AppDelegate.cpp = ..\Contents\04. Action\ActionEx2\Classes\AppDelegate.cpp
+		..\Contents\04. Action\ActionEx2\Classes\AppDelegate.h = ..\Contents\04. Action\ActionEx2\Classes\AppDelegate.h
+		..\Contents\04. Action\ActionEx2\Classes\HelloWorldScene.cpp = ..\Contents\04. Action\ActionEx2\Classes\HelloWorldScene.cpp
+		..\Contents\04. Action\ActionEx2\Classes\HelloWorldScene.h = ..\Contents\04. Action\ActionEx2\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex3", "Ex3", "{72B16441-F0C8-419B-9A44-05321BAA2752}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\04. Action\ActionEx3\Classes\AppDelegate.cpp = ..\Contents\04. Action\ActionEx3\Classes\AppDelegate.cpp
+		..\Contents\04. Action\ActionEx3\Classes\AppDelegate.h = ..\Contents\04. Action\ActionEx3\Classes\AppDelegate.h
+		..\Contents\04. Action\ActionEx3\Classes\HelloWorldScene.cpp = ..\Contents\04. Action\ActionEx3\Classes\HelloWorldScene.cpp
+		..\Contents\04. Action\ActionEx3\Classes\HelloWorldScene.h = ..\Contents\04. Action\ActionEx3\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex4", "Ex4", "{2CD0A0EC-5B20-4411-AD0A-148008B4732E}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\04. Action\ActionEx4\Classes\AppDelegate.cpp = ..\Contents\04. Action\ActionEx4\Classes\AppDelegate.cpp
+		..\Contents\04. Action\ActionEx4\Classes\AppDelegate.h = ..\Contents\04. Action\ActionEx4\Classes\AppDelegate.h
+		..\Contents\04. Action\ActionEx4\Classes\HelloWorldScene.cpp = ..\Contents\04. Action\ActionEx4\Classes\HelloWorldScene.cpp
+		..\Contents\04. Action\ActionEx4\Classes\HelloWorldScene.h = ..\Contents\04. Action\ActionEx4\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex5", "Ex5", "{F3800FDD-08B4-42C6-886A-6D267DDF1474}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\04. Action\ActionEx5\Classes\AppDelegate.cpp = ..\Contents\04. Action\ActionEx5\Classes\AppDelegate.cpp
+		..\Contents\04. Action\ActionEx5\Classes\AppDelegate.h = ..\Contents\04. Action\ActionEx5\Classes\AppDelegate.h
+		..\Contents\04. Action\ActionEx5\Classes\HelloWorldScene.cpp = ..\Contents\04. Action\ActionEx5\Classes\HelloWorldScene.cpp
+		..\Contents\04. Action\ActionEx5\Classes\HelloWorldScene.h = ..\Contents\04. Action\ActionEx5\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Etc. Exam", "Etc. Exam", "{027EF70B-65DC-456D-843F-DC8AE29EF33F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Rock,Scissor,Paper Game", "01. Rock,Scissor,Paper Game", "{3B99D84F-57F8-4E16-805B-D325B01D35E1}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Etc. Exam\01. Rock,Scissor,Paper Game\Classes\AppDelegate.cpp = ..\Contents\Etc. Exam\01. Rock,Scissor,Paper Game\Classes\AppDelegate.cpp
+		..\Contents\Etc. Exam\01. Rock,Scissor,Paper Game\Classes\AppDelegate.h = ..\Contents\Etc. Exam\01. Rock,Scissor,Paper Game\Classes\AppDelegate.h
+		..\Contents\Etc. Exam\01. Rock,Scissor,Paper Game\Classes\HelloWorldScene.cpp = ..\Contents\Etc. Exam\01. Rock,Scissor,Paper Game\Classes\HelloWorldScene.cpp
+		..\Contents\Etc. Exam\01. Rock,Scissor,Paper Game\Classes\HelloWorldScene.h = ..\Contents\Etc. Exam\01. Rock,Scissor,Paper Game\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Bubble Bubble Main", "02. Bubble Bubble Main", "{B40E4850-2754-42C2-890B-76F5B733C84B}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Etc. Exam\02. BubbleBubble Main\Classes\AppDelegate.cpp = ..\Contents\Etc. Exam\02. BubbleBubble Main\Classes\AppDelegate.cpp
+		..\Contents\Etc. Exam\02. BubbleBubble Main\Classes\AppDelegate.h = ..\Contents\Etc. Exam\02. BubbleBubble Main\Classes\AppDelegate.h
+		..\Contents\Etc. Exam\02. BubbleBubble Main\Classes\HelloWorldScene.cpp = ..\Contents\Etc. Exam\02. BubbleBubble Main\Classes\HelloWorldScene.cpp
+		..\Contents\Etc. Exam\02. BubbleBubble Main\Classes\HelloWorldScene.h = ..\Contents\Etc. Exam\02. BubbleBubble Main\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Twin Jump", "03. Twin Jump", "{057614F8-4715-4862-BCA6-3D95EF5CC277}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Etc. Exam\03. Tiwn Jump\Classes\AppDelegate.cpp = ..\Contents\Etc. Exam\03. Tiwn Jump\Classes\AppDelegate.cpp
+		..\Contents\Etc. Exam\03. Tiwn Jump\Classes\AppDelegate.h = ..\Contents\Etc. Exam\03. Tiwn Jump\Classes\AppDelegate.h
+		..\Contents\Etc. Exam\03. Tiwn Jump\Classes\HelloWorldScene.cpp = ..\Contents\Etc. Exam\03. Tiwn Jump\Classes\HelloWorldScene.cpp
+		..\Contents\Etc. Exam\03. Tiwn Jump\Classes\HelloWorldScene.h = ..\Contents\Etc. Exam\03. Tiwn Jump\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex1", "Ex1", "{017ED585-F1D3-4593-B52E-974DE106D3FE}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\05. Animation\AnimationEx1\Classes\AppDelegate.cpp = ..\Contents\05. Animation\AnimationEx1\Classes\AppDelegate.cpp
+		..\Contents\05. Animation\AnimationEx1\Classes\AppDelegate.h = ..\Contents\05. Animation\AnimationEx1\Classes\AppDelegate.h
+		..\Contents\05. Animation\AnimationEx1\Classes\HelloWorldScene.cpp = ..\Contents\05. Animation\AnimationEx1\Classes\HelloWorldScene.cpp
+		..\Contents\05. Animation\AnimationEx1\Classes\HelloWorldScene.h = ..\Contents\05. Animation\AnimationEx1\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex2", "Ex2", "{79861863-4C87-4782-B0CA-294182DB1142}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\05. Animation\AnimationEx2\Classes\AppDelegate.cpp = ..\Contents\05. Animation\AnimationEx2\Classes\AppDelegate.cpp
+		..\Contents\05. Animation\AnimationEx2\Classes\AppDelegate.h = ..\Contents\05. Animation\AnimationEx2\Classes\AppDelegate.h
+		..\Contents\05. Animation\AnimationEx2\Classes\HelloWorldScene.cpp = ..\Contents\05. Animation\AnimationEx2\Classes\HelloWorldScene.cpp
+		..\Contents\05. Animation\AnimationEx2\Classes\HelloWorldScene.h = ..\Contents\05. Animation\AnimationEx2\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex3", "Ex3", "{E3D9AF91-B737-45E6-9CF1-A2BE36CC62BE}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\05. Animation\AnimationEx3\Classes\AppDelegate.cpp = ..\Contents\05. Animation\AnimationEx3\Classes\AppDelegate.cpp
+		..\Contents\05. Animation\AnimationEx3\Classes\AppDelegate.h = ..\Contents\05. Animation\AnimationEx3\Classes\AppDelegate.h
+		..\Contents\05. Animation\AnimationEx3\Classes\HelloWorldScene.cpp = ..\Contents\05. Animation\AnimationEx3\Classes\HelloWorldScene.cpp
+		..\Contents\05. Animation\AnimationEx3\Classes\HelloWorldScene.h = ..\Contents\05. Animation\AnimationEx3\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex4", "Ex4", "{530B9FD7-7CDA-4444-9805-A93DF049EF3F}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\05. Animation\AnimationEx4\Classes\AppDelegate.cpp = ..\Contents\05. Animation\AnimationEx4\Classes\AppDelegate.cpp
+		..\Contents\05. Animation\AnimationEx4\Classes\AppDelegate.h = ..\Contents\05. Animation\AnimationEx4\Classes\AppDelegate.h
+		..\Contents\05. Animation\AnimationEx4\Classes\HelloWorldScene.cpp = ..\Contents\05. Animation\AnimationEx4\Classes\HelloWorldScene.cpp
+		..\Contents\05. Animation\AnimationEx4\Classes\HelloWorldScene.h = ..\Contents\05. Animation\AnimationEx4\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex5", "Ex5", "{6D5CCD0D-14AC-45D4-AEE5-A0A51D038F36}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\05. Animation\AnimationEx5\Classes\AppDelegate.cpp = ..\Contents\05. Animation\AnimationEx5\Classes\AppDelegate.cpp
+		..\Contents\05. Animation\AnimationEx5\Classes\AppDelegate.h = ..\Contents\05. Animation\AnimationEx5\Classes\AppDelegate.h
+		..\Contents\05. Animation\AnimationEx5\Classes\HelloWorldScene.cpp = ..\Contents\05. Animation\AnimationEx5\Classes\HelloWorldScene.cpp
+		..\Contents\05. Animation\AnimationEx5\Classes\HelloWorldScene.h = ..\Contents\05. Animation\AnimationEx5\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10. Schedule", "10. Schedule", "{2CCB7CB5-1A67-4493-89A4-7F8F28D49440}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex1", "Ex1", "{AA104309-C642-4085-9F98-8ED4C4DC557D}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\10. Schedule\ScheduleEx1\Classes\AppDelegate.cpp = ..\Contents\10. Schedule\ScheduleEx1\Classes\AppDelegate.cpp
+		..\Contents\10. Schedule\ScheduleEx1\Classes\AppDelegate.h = ..\Contents\10. Schedule\ScheduleEx1\Classes\AppDelegate.h
+		..\Contents\10. Schedule\ScheduleEx1\Classes\HelloWorldScene.cpp = ..\Contents\10. Schedule\ScheduleEx1\Classes\HelloWorldScene.cpp
+		..\Contents\10. Schedule\ScheduleEx1\Classes\HelloWorldScene.h = ..\Contents\10. Schedule\ScheduleEx1\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex2", "Ex2", "{158AAF66-2F39-4E02-9525-90E00FE4DD31}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\10. Schedule\ScheduleEx2\Classes\AppDelegate.cpp = ..\Contents\10. Schedule\ScheduleEx2\Classes\AppDelegate.cpp
+		..\Contents\10. Schedule\ScheduleEx2\Classes\AppDelegate.h = ..\Contents\10. Schedule\ScheduleEx2\Classes\AppDelegate.h
+		..\Contents\10. Schedule\ScheduleEx2\Classes\HelloWorldScene.cpp = ..\Contents\10. Schedule\ScheduleEx2\Classes\HelloWorldScene.cpp
+		..\Contents\10. Schedule\ScheduleEx2\Classes\HelloWorldScene.h = ..\Contents\10. Schedule\ScheduleEx2\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. Touch", "06. Touch", "{CC75BA67-0421-41F8-B5F2-A67E0232C67E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex1", "Ex1", "{BFA5070B-F5B6-4D49-BE38-8AD53E785E13}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\06. Touch\Ex1\Classes\AppDelegate.cpp = ..\Contents\06. Touch\Ex1\Classes\AppDelegate.cpp
+		..\Contents\06. Touch\Ex1\Classes\AppDelegate.h = ..\Contents\06. Touch\Ex1\Classes\AppDelegate.h
+		..\Contents\06. Touch\Ex1\Classes\HelloWorldScene.cpp = ..\Contents\06. Touch\Ex1\Classes\HelloWorldScene.cpp
+		..\Contents\06. Touch\Ex1\Classes\HelloWorldScene.h = ..\Contents\06. Touch\Ex1\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex2", "Ex2", "{59AA9716-6E25-47CD-96D9-26167B045C51}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\06. Touch\Ex2\Classes\AppDelegate.cpp = ..\Contents\06. Touch\Ex2\Classes\AppDelegate.cpp
+		..\Contents\06. Touch\Ex2\Classes\AppDelegate.h = ..\Contents\06. Touch\Ex2\Classes\AppDelegate.h
+		..\Contents\06. Touch\Ex2\Classes\HelloWorldScene.cpp = ..\Contents\06. Touch\Ex2\Classes\HelloWorldScene.cpp
+		..\Contents\06. Touch\Ex2\Classes\HelloWorldScene.h = ..\Contents\06. Touch\Ex2\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex3", "Ex3", "{0DD022E5-F8E2-4B0E-845D-E28D9C2C8CF1}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\06. Touch\Ex3\Classes\AppDelegate.cpp = ..\Contents\06. Touch\Ex3\Classes\AppDelegate.cpp
+		..\Contents\06. Touch\Ex3\Classes\AppDelegate.h = ..\Contents\06. Touch\Ex3\Classes\AppDelegate.h
+		..\Contents\06. Touch\Ex3\Classes\HelloWorldScene.cpp = ..\Contents\06. Touch\Ex3\Classes\HelloWorldScene.cpp
+		..\Contents\06. Touch\Ex3\Classes\HelloWorldScene.h = ..\Contents\06. Touch\Ex3\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex4", "Ex4", "{61884FFB-DC4C-4BCD-9599-3F95CAD15160}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\06. Touch\Ex4\Classes\AppDelegate.cpp = ..\Contents\06. Touch\Ex4\Classes\AppDelegate.cpp
+		..\Contents\06. Touch\Ex4\Classes\AppDelegate.h = ..\Contents\06. Touch\Ex4\Classes\AppDelegate.h
+		..\Contents\06. Touch\Ex4\Classes\HelloWorldScene.cpp = ..\Contents\06. Touch\Ex4\Classes\HelloWorldScene.cpp
+		..\Contents\06. Touch\Ex4\Classes\HelloWorldScene.h = ..\Contents\06. Touch\Ex4\Classes\HelloWorldScene.h
+		..\Contents\06. Touch\Ex4\Classes\Monster.cpp = ..\Contents\06. Touch\Ex4\Classes\Monster.cpp
+		..\Contents\06. Touch\Ex4\Classes\Monster.h = ..\Contents\06. Touch\Ex4\Classes\Monster.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex5", "Ex5", "{E405E3F2-F1A8-45DB-BE3C-2C4D1C0382C8}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\06. Touch\Ex5\Classes\AppDelegate.cpp = ..\Contents\06. Touch\Ex5\Classes\AppDelegate.cpp
+		..\Contents\06. Touch\Ex5\Classes\AppDelegate.h = ..\Contents\06. Touch\Ex5\Classes\AppDelegate.h
+		..\Contents\06. Touch\Ex5\Classes\HelloWorldScene.cpp = ..\Contents\06. Touch\Ex5\Classes\HelloWorldScene.cpp
+		..\Contents\06. Touch\Ex5\Classes\HelloWorldScene.h = ..\Contents\06. Touch\Ex5\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex6", "Ex6", "{20F1CC99-36CD-4C43-8CAD-94510C247085}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\06. Touch\Ex6\Classes\AppDelegate.cpp = ..\Contents\06. Touch\Ex6\Classes\AppDelegate.cpp
+		..\Contents\06. Touch\Ex6\Classes\AppDelegate.h = ..\Contents\06. Touch\Ex6\Classes\AppDelegate.h
+		..\Contents\06. Touch\Ex6\Classes\HelloWorldScene.cpp = ..\Contents\06. Touch\Ex6\Classes\HelloWorldScene.cpp
+		..\Contents\06. Touch\Ex6\Classes\HelloWorldScene.h = ..\Contents\06. Touch\Ex6\Classes\HelloWorldScene.h
+		..\Contents\06. Touch\Ex6\Classes\TouchPoint.h = ..\Contents\06. Touch\Ex6\Classes\TouchPoint.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. CatchMole", "04. CatchMole", "{253485D4-8C82-4EA4-BC2E-E3861DAEF243}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Etc. Exam\04. CatchMole\Classes\AppDelegate.cpp = ..\Contents\Etc. Exam\04. CatchMole\Classes\AppDelegate.cpp
+		..\Contents\Etc. Exam\04. CatchMole\Classes\AppDelegate.h = ..\Contents\Etc. Exam\04. CatchMole\Classes\AppDelegate.h
+		..\Contents\Etc. Exam\04. CatchMole\Classes\HelloWorldScene.cpp = ..\Contents\Etc. Exam\04. CatchMole\Classes\HelloWorldScene.cpp
+		..\Contents\Etc. Exam\04. CatchMole\Classes\HelloWorldScene.h = ..\Contents\Etc. Exam\04. CatchMole\Classes\HelloWorldScene.h
+		..\Contents\Etc. Exam\04. CatchMole\Classes\Mole.cpp = ..\Contents\Etc. Exam\04. CatchMole\Classes\Mole.cpp
+		..\Contents\Etc. Exam\04. CatchMole\Classes\Mole.h = ..\Contents\Etc. Exam\04. CatchMole\Classes\Mole.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extra", "Extra", "{57843A36-9365-4B51-816B-1F5F0BEA4217}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08. Transition", "08. Transition", "{DA46D791-3272-426E-B934-0B04EF2FEAC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex1", "Ex1", "{D6FEBE95-9CA1-40C7-A1B4-0BED952D04A2}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\08. Transition\Ex1\Classes\AppDelegate.cpp = ..\Contents\08. Transition\Ex1\Classes\AppDelegate.cpp
+		..\Contents\08. Transition\Ex1\Classes\AppDelegate.h = ..\Contents\08. Transition\Ex1\Classes\AppDelegate.h
+		..\Contents\08. Transition\Ex1\Classes\HelloWorldScene.cpp = ..\Contents\08. Transition\Ex1\Classes\HelloWorldScene.cpp
+		..\Contents\08. Transition\Ex1\Classes\HelloWorldScene.h = ..\Contents\08. Transition\Ex1\Classes\HelloWorldScene.h
+		..\Contents\08. Transition\Ex1\Classes\TestScene2.cpp = ..\Contents\08. Transition\Ex1\Classes\TestScene2.cpp
+		..\Contents\08. Transition\Ex1\Classes\TestScene2.h = ..\Contents\08. Transition\Ex1\Classes\TestScene2.h
+		..\Contents\08. Transition\Ex1\Classes\TestScene3.cpp = ..\Contents\08. Transition\Ex1\Classes\TestScene3.cpp
+		..\Contents\08. Transition\Ex1\Classes\TestScene3.h = ..\Contents\08. Transition\Ex1\Classes\TestScene3.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex2", "Ex2", "{59F3AC0E-154F-4D9D-A124-1E9A7838230E}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\08. Transition\Ex2\Classes\AppDelegate.cpp = ..\Contents\08. Transition\Ex2\Classes\AppDelegate.cpp
+		..\Contents\08. Transition\Ex2\Classes\AppDelegate.h = ..\Contents\08. Transition\Ex2\Classes\AppDelegate.h
+		..\Contents\08. Transition\Ex2\Classes\HelloWorldScene.cpp = ..\Contents\08. Transition\Ex2\Classes\HelloWorldScene.cpp
+		..\Contents\08. Transition\Ex2\Classes\HelloWorldScene.h = ..\Contents\08. Transition\Ex2\Classes\HelloWorldScene.h
+		..\Contents\08. Transition\Ex2\Classes\SecondScene.cpp = ..\Contents\08. Transition\Ex2\Classes\SecondScene.cpp
+		..\Contents\08. Transition\Ex2\Classes\SecondScene.h = ..\Contents\08. Transition\Ex2\Classes\SecondScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07. Sound", "07. Sound", "{538A7273-B891-45FE-A87E-0350EDD77314}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex1", "Ex1", "{F78F002A-99FA-46DC-9B3C-27914DEB10DA}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\07. Sound\Ex1\Classes\AppDelegate.cpp = ..\Contents\07. Sound\Ex1\Classes\AppDelegate.cpp
+		..\Contents\07. Sound\Ex1\Classes\AppDelegate.h = ..\Contents\07. Sound\Ex1\Classes\AppDelegate.h
+		..\Contents\07. Sound\Ex1\Classes\HelloWorldScene.cpp = ..\Contents\07. Sound\Ex1\Classes\HelloWorldScene.cpp
+		..\Contents\07. Sound\Ex1\Classes\HelloWorldScene.h = ..\Contents\07. Sound\Ex1\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 .VectorEx", "02 .VectorEx", "{B0F1DC63-FC4D-40CB-B056-2B0704CB72E0}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Extra\02. VectorEx\Classes\AppDelegate.cpp = ..\Contents\Extra\02. VectorEx\Classes\AppDelegate.cpp
+		..\Contents\Extra\02. VectorEx\Classes\AppDelegate.h = ..\Contents\Extra\02. VectorEx\Classes\AppDelegate.h
+		..\Contents\Extra\02. VectorEx\Classes\HelloWorldScene.cpp = ..\Contents\Extra\02. VectorEx\Classes\HelloWorldScene.cpp
+		..\Contents\Extra\02. VectorEx\Classes\HelloWorldScene.h = ..\Contents\Extra\02. VectorEx\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Transition+Sound+Animation", "01. Transition+Sound+Animation", "{6F5F8467-8C8A-4279-AE12-205A198727C7}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Extra\01. Transition+sound+animation\Classes\AppDelegate.cpp = ..\Contents\Extra\01. Transition+sound+animation\Classes\AppDelegate.cpp
+		..\Contents\Extra\01. Transition+sound+animation\Classes\AppDelegate.h = ..\Contents\Extra\01. Transition+sound+animation\Classes\AppDelegate.h
+		..\Contents\Extra\01. Transition+sound+animation\Classes\HelloWorldScene.cpp = ..\Contents\Extra\01. Transition+sound+animation\Classes\HelloWorldScene.cpp
+		..\Contents\Extra\01. Transition+sound+animation\Classes\HelloWorldScene.h = ..\Contents\Extra\01. Transition+sound+animation\Classes\HelloWorldScene.h
+		..\Contents\Extra\01. Transition+sound+animation\Classes\SecondScene.cpp = ..\Contents\Extra\01. Transition+sound+animation\Classes\SecondScene.cpp
+		..\Contents\Extra\01. Transition+sound+animation\Classes\SecondScene.h = ..\Contents\Extra\01. Transition+sound+animation\Classes\SecondScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09. Progress", "09. Progress", "{62E4B1E8-D8BA-40C1-A11F-DE47C69DBEB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex1", "Ex1", "{0BE71E7F-755A-49ED-A96A-F34DAD21BBA3}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\09. Progress\Ex1\Classes\AppDelegate.cpp = ..\Contents\09. Progress\Ex1\Classes\AppDelegate.cpp
+		..\Contents\09. Progress\Ex1\Classes\AppDelegate.h = ..\Contents\09. Progress\Ex1\Classes\AppDelegate.h
+		..\Contents\09. Progress\Ex1\Classes\HelloWorldScene.cpp = ..\Contents\09. Progress\Ex1\Classes\HelloWorldScene.cpp
+		..\Contents\09. Progress\Ex1\Classes\HelloWorldScene.h = ..\Contents\09. Progress\Ex1\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex2", "Ex2", "{0615B164-4891-4FF4-8C8C-37A50B62565B}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\09. Progress\Ex2\Classes\AppDelegate.cpp = ..\Contents\09. Progress\Ex2\Classes\AppDelegate.cpp
+		..\Contents\09. Progress\Ex2\Classes\AppDelegate.h = ..\Contents\09. Progress\Ex2\Classes\AppDelegate.h
+		..\Contents\09. Progress\Ex2\Classes\HelloWorldScene.cpp = ..\Contents\09. Progress\Ex2\Classes\HelloWorldScene.cpp
+		..\Contents\09. Progress\Ex2\Classes\HelloWorldScene.h = ..\Contents\09. Progress\Ex2\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11. ParallaxNode", "11. ParallaxNode", "{8C9E2AF9-F348-47E2-8797-AA5FA1090897}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex1", "Ex1", "{8158B8B9-AC1E-45FA-91F2-E80BCBBD8361}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\11. ParallaxNode\Ex1\Classes\AppDelegate.cpp = ..\Contents\11. ParallaxNode\Ex1\Classes\AppDelegate.cpp
+		..\Contents\11. ParallaxNode\Ex1\Classes\AppDelegate.h = ..\Contents\11. ParallaxNode\Ex1\Classes\AppDelegate.h
+		..\Contents\11. ParallaxNode\Ex1\Classes\HelloWorldScene.cpp = ..\Contents\11. ParallaxNode\Ex1\Classes\HelloWorldScene.cpp
+		..\Contents\11. ParallaxNode\Ex1\Classes\HelloWorldScene.h = ..\Contents\11. ParallaxNode\Ex1\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex2", "Ex2", "{2D532887-D9DE-4D0B-AD21-1EC7DEA5C11A}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\11. ParallaxNode\Ex2\Classes\AppDelegate.cpp = ..\Contents\11. ParallaxNode\Ex2\Classes\AppDelegate.cpp
+		..\Contents\11. ParallaxNode\Ex2\Classes\AppDelegate.h = ..\Contents\11. ParallaxNode\Ex2\Classes\AppDelegate.h
+		..\Contents\11. ParallaxNode\Ex2\Classes\HelloWorldScene.cpp = ..\Contents\11. ParallaxNode\Ex2\Classes\HelloWorldScene.cpp
+		..\Contents\11. ParallaxNode\Ex2\Classes\HelloWorldScene.h = ..\Contents\11. ParallaxNode\Ex2\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex3", "Ex3", "{4FAFC422-ADFF-4895-8EAE-620FCB88D289}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\11. ParallaxNode\Ex3\Classes\AppDelegate.cpp = ..\Contents\11. ParallaxNode\Ex3\Classes\AppDelegate.cpp
+		..\Contents\11. ParallaxNode\Ex3\Classes\AppDelegate.h = ..\Contents\11. ParallaxNode\Ex3\Classes\AppDelegate.h
+		..\Contents\11. ParallaxNode\Ex3\Classes\HelloWorldScene.cpp = ..\Contents\11. ParallaxNode\Ex3\Classes\HelloWorldScene.cpp
+		..\Contents\11. ParallaxNode\Ex3\Classes\HelloWorldScene.h = ..\Contents\11. ParallaxNode\Ex3\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex4", "Ex4", "{A809699D-AEBB-47F8-B495-0DEDEF821631}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\11. ParallaxNode\Ex4\Classes\AppDelegate.cpp = ..\Contents\11. ParallaxNode\Ex4\Classes\AppDelegate.cpp
+		..\Contents\11. ParallaxNode\Ex4\Classes\AppDelegate.h = ..\Contents\11. ParallaxNode\Ex4\Classes\AppDelegate.h
+		..\Contents\11. ParallaxNode\Ex4\Classes\HelloWorldScene.cpp = ..\Contents\11. ParallaxNode\Ex4\Classes\HelloWorldScene.cpp
+		..\Contents\11. ParallaxNode\Ex4\Classes\HelloWorldScene.h = ..\Contents\11. ParallaxNode\Ex4\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. SingleTouchRotate", "03. SingleTouchRotate", "{918A102E-0F49-417A-B190-F6284EB64F1C}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Extra\03. SingleTouchRotate\Classes\AppDelegate.cpp = ..\Contents\Extra\03. SingleTouchRotate\Classes\AppDelegate.cpp
+		..\Contents\Extra\03. SingleTouchRotate\Classes\AppDelegate.h = ..\Contents\Extra\03. SingleTouchRotate\Classes\AppDelegate.h
+		..\Contents\Extra\03. SingleTouchRotate\Classes\HelloWorldScene.cpp = ..\Contents\Extra\03. SingleTouchRotate\Classes\HelloWorldScene.cpp
+		..\Contents\Extra\03. SingleTouchRotate\Classes\HelloWorldScene.h = ..\Contents\Extra\03. SingleTouchRotate\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. MultiTouchRotate", "04. MultiTouchRotate", "{0D0407CC-2625-4A65-8D64-2D824B9263B7}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Extra\04. MultiTouchRotate\Classes\AppDelegate.cpp = ..\Contents\Extra\04. MultiTouchRotate\Classes\AppDelegate.cpp
+		..\Contents\Extra\04. MultiTouchRotate\Classes\AppDelegate.h = ..\Contents\Extra\04. MultiTouchRotate\Classes\AppDelegate.h
+		..\Contents\Extra\04. MultiTouchRotate\Classes\HelloWorldScene.cpp = ..\Contents\Extra\04. MultiTouchRotate\Classes\HelloWorldScene.cpp
+		..\Contents\Extra\04. MultiTouchRotate\Classes\HelloWorldScene.h = ..\Contents\Extra\04. MultiTouchRotate\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. 1945", "05. 1945", "{DC4AE1DA-B39E-49B3-B95E-C6D24E03B045}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Etc. Exam\05. 1945\HelloWorldScene.cpp = ..\Contents\Etc. Exam\05. 1945\HelloWorldScene.cpp
+		..\Contents\Etc. Exam\05. 1945\HelloWorldScene.h = ..\Contents\Etc. Exam\05. 1945\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12. TileMap", "12. TileMap", "{A3DC1CE5-F24B-4F77-BEC6-3E7ADF772905}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13. Particle", "13. Particle", "{E3C63C79-DF19-43F1-9B70-AEEB1BE6A705}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex1", "Ex1", "{8BC69990-6A6B-4F09-B6B5-AF336D597021}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\13. Particle\Ex1\Classes\AppDelegate.cpp = ..\Contents\13. Particle\Ex1\Classes\AppDelegate.cpp
+		..\Contents\13. Particle\Ex1\Classes\AppDelegate.h = ..\Contents\13. Particle\Ex1\Classes\AppDelegate.h
+		..\Contents\13. Particle\Ex1\Classes\HelloWorldScene.cpp = ..\Contents\13. Particle\Ex1\Classes\HelloWorldScene.cpp
+		..\Contents\13. Particle\Ex1\Classes\HelloWorldScene.h = ..\Contents\13. Particle\Ex1\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Ex1", "01. Ex1", "{747A44FB-FDAB-4950-9392-6C65A3904729}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\12. TileMap\01. Ex1\Classes\AppDelegate.cpp = ..\Contents\12. TileMap\01. Ex1\Classes\AppDelegate.cpp
+		..\Contents\12. TileMap\01. Ex1\Classes\AppDelegate.h = ..\Contents\12. TileMap\01. Ex1\Classes\AppDelegate.h
+		..\Contents\12. TileMap\01. Ex1\Classes\HelloWorldScene.cpp = ..\Contents\12. TileMap\01. Ex1\Classes\HelloWorldScene.cpp
+		..\Contents\12. TileMap\01. Ex1\Classes\HelloWorldScene.h = ..\Contents\12. TileMap\01. Ex1\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Ex2", "02. Ex2", "{EE8E6811-B2AB-479E-9815-5DE500E7A9C9}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\12. TileMap\02. Ex2\Classes\AppDelegate.cpp = ..\Contents\12. TileMap\02. Ex2\Classes\AppDelegate.cpp
+		..\Contents\12. TileMap\02. Ex2\Classes\AppDelegate.h = ..\Contents\12. TileMap\02. Ex2\Classes\AppDelegate.h
+		..\Contents\12. TileMap\02. Ex2\Classes\HelloWorldScene.cpp = ..\Contents\12. TileMap\02. Ex2\Classes\HelloWorldScene.cpp
+		..\Contents\12. TileMap\02. Ex2\Classes\HelloWorldScene.h = ..\Contents\12. TileMap\02. Ex2\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Ex3", "03. Ex3", "{B7DB9170-16E6-4A4E-95E7-2AD8AE2E6F2F}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\12. TileMap\03. Ex3\Classes\AppDelegate.cpp = ..\Contents\12. TileMap\03. Ex3\Classes\AppDelegate.cpp
+		..\Contents\12. TileMap\03. Ex3\Classes\AppDelegate.h = ..\Contents\12. TileMap\03. Ex3\Classes\AppDelegate.h
+		..\Contents\12. TileMap\03. Ex3\Classes\HelloWorldScene.cpp = ..\Contents\12. TileMap\03. Ex3\Classes\HelloWorldScene.cpp
+		..\Contents\12. TileMap\03. Ex3\Classes\HelloWorldScene.h = ..\Contents\12. TileMap\03. Ex3\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Ex4", "04. Ex4", "{3E070F23-2817-43AE-B6AB-92A9314107CA}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\12. TileMap\04. Ex4\Classes\AppDelegate.cpp = ..\Contents\12. TileMap\04. Ex4\Classes\AppDelegate.cpp
+		..\Contents\12. TileMap\04. Ex4\Classes\AppDelegate.h = ..\Contents\12. TileMap\04. Ex4\Classes\AppDelegate.h
+		..\Contents\12. TileMap\04. Ex4\Classes\HelloWorldScene.cpp = ..\Contents\12. TileMap\04. Ex4\Classes\HelloWorldScene.cpp
+		..\Contents\12. TileMap\04. Ex4\Classes\HelloWorldScene.h = ..\Contents\12. TileMap\04. Ex4\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. ZorderEx1", "05. ZorderEx1", "{689CDE1E-EA3B-49FA-ABDC-5BDA5370BD0A}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\12. TileMap\05. ZOrderEx1\Classes\AppDelegate.cpp = ..\Contents\12. TileMap\05. ZOrderEx1\Classes\AppDelegate.cpp
+		..\Contents\12. TileMap\05. ZOrderEx1\Classes\AppDelegate.h = ..\Contents\12. TileMap\05. ZOrderEx1\Classes\AppDelegate.h
+		..\Contents\12. TileMap\05. ZOrderEx1\Classes\HelloWorldScene.cpp = ..\Contents\12. TileMap\05. ZOrderEx1\Classes\HelloWorldScene.cpp
+		..\Contents\12. TileMap\05. ZOrderEx1\Classes\HelloWorldScene.h = ..\Contents\12. TileMap\05. ZOrderEx1\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. ZorderEx2", "06. ZorderEx2", "{917ADD48-3FE9-4B3C-97A1-9EAA43D2A362}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\12. TileMap\06. ZOrderEx2\Classes\AppDelegate.cpp = ..\Contents\12. TileMap\06. ZOrderEx2\Classes\AppDelegate.cpp
+		..\Contents\12. TileMap\06. ZOrderEx2\Classes\AppDelegate.h = ..\Contents\12. TileMap\06. ZOrderEx2\Classes\AppDelegate.h
+		..\Contents\12. TileMap\06. ZOrderEx2\Classes\HelloWorldScene.cpp = ..\Contents\12. TileMap\06. ZOrderEx2\Classes\HelloWorldScene.cpp
+		..\Contents\12. TileMap\06. ZOrderEx2\Classes\HelloWorldScene.h = ..\Contents\12. TileMap\06. ZOrderEx2\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14. Data", "14. Data", "{334F8320-5CED-432A-85EF-1195D2596938}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. RotateTom", "06. RotateTom", "{E5DFC7A8-84C8-4196-9973-D7FA2D5FD0A2}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Extra\06. RotateTom\Classes\AppDelegate.cpp = ..\Contents\Extra\06. RotateTom\Classes\AppDelegate.cpp
+		..\Contents\Extra\06. RotateTom\Classes\AppDelegate.h = ..\Contents\Extra\06. RotateTom\Classes\AppDelegate.h
+		..\Contents\Extra\06. RotateTom\Classes\HelloWorldScene.cpp = ..\Contents\Extra\06. RotateTom\Classes\HelloWorldScene.cpp
+		..\Contents\Extra\06. RotateTom\Classes\HelloWorldScene.h = ..\Contents\Extra\06. RotateTom\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex1", "Ex1", "{23B9D43A-D277-46AE-A3FE-37F4297B626E}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\14. Data\Ex1\Classes\AppDelegate.cpp = ..\Contents\14. Data\Ex1\Classes\AppDelegate.cpp
+		..\Contents\14. Data\Ex1\Classes\AppDelegate.h = ..\Contents\14. Data\Ex1\Classes\AppDelegate.h
+		..\Contents\14. Data\Ex1\Classes\HelloWorldScene.cpp = ..\Contents\14. Data\Ex1\Classes\HelloWorldScene.cpp
+		..\Contents\14. Data\Ex1\Classes\HelloWorldScene.h = ..\Contents\14. Data\Ex1\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07. HolyGrail", "07. HolyGrail", "{75F7E612-655E-4024-9E44-11A9E72B45F3}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Etc. Exam\06. HolyGrail\Classes\AppDelegate.cpp = ..\Contents\Etc. Exam\06. HolyGrail\Classes\AppDelegate.cpp
+		..\Contents\Etc. Exam\06. HolyGrail\Classes\AppDelegate.h = ..\Contents\Etc. Exam\06. HolyGrail\Classes\AppDelegate.h
+		..\Contents\Etc. Exam\06. HolyGrail\Classes\Clear.cpp = ..\Contents\Etc. Exam\06. HolyGrail\Classes\Clear.cpp
+		..\Contents\Etc. Exam\06. HolyGrail\Classes\Clear.h = ..\Contents\Etc. Exam\06. HolyGrail\Classes\Clear.h
+		..\Contents\Etc. Exam\06. HolyGrail\Classes\HelloWorldScene.cpp = ..\Contents\Etc. Exam\06. HolyGrail\Classes\HelloWorldScene.cpp
+		..\Contents\Etc. Exam\06. HolyGrail\Classes\HelloWorldScene.h = ..\Contents\Etc. Exam\06. HolyGrail\Classes\HelloWorldScene.h
+		..\Contents\Etc. Exam\06. HolyGrail\Classes\Player.h = ..\Contents\Etc. Exam\06. HolyGrail\Classes\Player.h
+		..\Contents\Etc. Exam\06. HolyGrail\Classes\StageObject.h = ..\Contents\Etc. Exam\06. HolyGrail\Classes\StageObject.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08. Puzzle", "08. Puzzle", "{304B9588-F383-431F-A4B0-6E9FEE0C3A2C}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Etc. Exam\08. Puzzle\Classes\AppDelegate.cpp = ..\Contents\Etc. Exam\08. Puzzle\Classes\AppDelegate.cpp
+		..\Contents\Etc. Exam\08. Puzzle\Classes\AppDelegate.h = ..\Contents\Etc. Exam\08. Puzzle\Classes\AppDelegate.h
+		..\Contents\Etc. Exam\08. Puzzle\Classes\HelloWorldScene.cpp = ..\Contents\Etc. Exam\08. Puzzle\Classes\HelloWorldScene.cpp
+		..\Contents\Etc. Exam\08. Puzzle\Classes\HelloWorldScene.h = ..\Contents\Etc. Exam\08. Puzzle\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15. EditBox", "15. EditBox", "{8D2E96AA-F4BD-41DB-9050-BC380D926264}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex2", "Ex2", "{7D7C51A8-1C41-49EA-A889-8A8CD99F4624}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\13. Particle\Ex2\Classes\AppDelegate.cpp = ..\Contents\13. Particle\Ex2\Classes\AppDelegate.cpp
+		..\Contents\13. Particle\Ex2\Classes\AppDelegate.h = ..\Contents\13. Particle\Ex2\Classes\AppDelegate.h
+		..\Contents\13. Particle\Ex2\Classes\HelloWorldScene.cpp = ..\Contents\13. Particle\Ex2\Classes\HelloWorldScene.cpp
+		..\Contents\13. Particle\Ex2\Classes\HelloWorldScene.h = ..\Contents\13. Particle\Ex2\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex3", "Ex3", "{F8A54AB9-BAD6-4F28-B799-E39528E16B48}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\13. Particle\Ex3\Classes\AppDelegate.cpp = ..\Contents\13. Particle\Ex3\Classes\AppDelegate.cpp
+		..\Contents\13. Particle\Ex3\Classes\AppDelegate.h = ..\Contents\13. Particle\Ex3\Classes\AppDelegate.h
+		..\Contents\13. Particle\Ex3\Classes\HelloWorldScene.cpp = ..\Contents\13. Particle\Ex3\Classes\HelloWorldScene.cpp
+		..\Contents\13. Particle\Ex3\Classes\HelloWorldScene.h = ..\Contents\13. Particle\Ex3\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex1", "Ex1", "{9E1B737C-038F-4DAD-8596-E8AF8CF1AE4B}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\15. EditBox\Ex1\Classes\AppDelegate.cpp = ..\Contents\15. EditBox\Ex1\Classes\AppDelegate.cpp
+		..\Contents\15. EditBox\Ex1\Classes\AppDelegate.h = ..\Contents\15. EditBox\Ex1\Classes\AppDelegate.h
+		..\Contents\15. EditBox\Ex1\Classes\HelloWorldScene.cpp = ..\Contents\15. EditBox\Ex1\Classes\HelloWorldScene.cpp
+		..\Contents\15. EditBox\Ex1\Classes\HelloWorldScene.h = ..\Contents\15. EditBox\Ex1\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. TileExtra", "05. TileExtra", "{E25A9C8C-F9AE-4C1C-8C11-316BA11828DF}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Extra\05. TileExtra\Classes\AppDelegate.cpp = ..\Contents\Extra\05. TileExtra\Classes\AppDelegate.cpp
+		..\Contents\Extra\05. TileExtra\Classes\AppDelegate.h = ..\Contents\Extra\05. TileExtra\Classes\AppDelegate.h
+		..\Contents\Extra\05. TileExtra\Classes\HelloWorldScene.cpp = ..\Contents\Extra\05. TileExtra\Classes\HelloWorldScene.cpp
+		..\Contents\Extra\05. TileExtra\Classes\HelloWorldScene.h = ..\Contents\Extra\05. TileExtra\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07. Scale9Sprite", "07. Scale9Sprite", "{01EBBC17-3445-437A-AE96-6EED7C56BD5C}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Extra\07. Scale9Sprite\Classes\AppDelegate.cpp = ..\Contents\Extra\07. Scale9Sprite\Classes\AppDelegate.cpp
+		..\Contents\Extra\07. Scale9Sprite\Classes\AppDelegate.h = ..\Contents\Extra\07. Scale9Sprite\Classes\AppDelegate.h
+		..\Contents\Extra\07. Scale9Sprite\Classes\HelloWorldScene.cpp = ..\Contents\Extra\07. Scale9Sprite\Classes\HelloWorldScene.cpp
+		..\Contents\Extra\07. Scale9Sprite\Classes\HelloWorldScene.h = ..\Contents\Extra\07. Scale9Sprite\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. TileRun", "06. TileRun", "{76D8173E-04E4-4BBF-BBE8-04D068B3AA2F}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Etc. Exam\06. RunEx\Classes\AppDelegate.cpp = ..\Contents\Etc. Exam\06. RunEx\Classes\AppDelegate.cpp
+		..\Contents\Etc. Exam\06. RunEx\Classes\AppDelegate.h = ..\Contents\Etc. Exam\06. RunEx\Classes\AppDelegate.h
+		..\Contents\Etc. Exam\06. RunEx\Classes\HelloWorldScene.cpp = ..\Contents\Etc. Exam\06. RunEx\Classes\HelloWorldScene.cpp
+		..\Contents\Etc. Exam\06. RunEx\Classes\HelloWorldScene.h = ..\Contents\Etc. Exam\06. RunEx\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07. TouchEx", "07. TouchEx", "{1D3E6075-CD4E-473E-B090-1ADBED869BC8}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\12. TileMap\07. TouchEx\Classes\AppDelegate.cpp = ..\Contents\12. TileMap\07. TouchEx\Classes\AppDelegate.cpp
+		..\Contents\12. TileMap\07. TouchEx\Classes\AppDelegate.h = ..\Contents\12. TileMap\07. TouchEx\Classes\AppDelegate.h
+		..\Contents\12. TileMap\07. TouchEx\Classes\HelloWorldScene.cpp = ..\Contents\12. TileMap\07. TouchEx\Classes\HelloWorldScene.cpp
+		..\Contents\12. TileMap\07. TouchEx\Classes\HelloWorldScene.h = ..\Contents\12. TileMap\07. TouchEx\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08. TileArray", "08. TileArray", "{FE1653C8-6852-46BB-8B37-A7A0CF20CCF6}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\12. TileMap\08. TileArray\Classes\AppDelegate.cpp = ..\Contents\12. TileMap\08. TileArray\Classes\AppDelegate.cpp
+		..\Contents\12. TileMap\08. TileArray\Classes\AppDelegate.h = ..\Contents\12. TileMap\08. TileArray\Classes\AppDelegate.h
+		..\Contents\12. TileMap\08. TileArray\Classes\HelloWorldScene.cpp = ..\Contents\12. TileMap\08. TileArray\Classes\HelloWorldScene.cpp
+		..\Contents\12. TileMap\08. TileArray\Classes\HelloWorldScene.h = ..\Contents\12. TileMap\08. TileArray\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "16. Http", "16. Http", "{3EB7D1A1-F649-432B-AC0D-401FCD1FE476}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "17. XML", "17. XML", "{BF75A4D4-50F9-47A3-A2A9-31AD85C4BAD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex1", "Ex1", "{9A78134E-FAF0-40A6-A35F-821828F129DA}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\16. Http\Classes\AppDelegate.cpp = ..\Contents\16. Http\Classes\AppDelegate.cpp
+		..\Contents\16. Http\Classes\AppDelegate.h = ..\Contents\16. Http\Classes\AppDelegate.h
+		..\Contents\16. Http\Classes\HelloWorldScene.cpp = ..\Contents\16. Http\Classes\HelloWorldScene.cpp
+		..\Contents\16. Http\Classes\HelloWorldScene.h = ..\Contents\16. Http\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex1", "Ex1", "{33DCF9B1-9754-4DAD-8A0B-248DEEFDEE53}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\17. XML\Classes\AppDelegate.cpp = ..\Contents\17. XML\Classes\AppDelegate.cpp
+		..\Contents\17. XML\Classes\AppDelegate.h = ..\Contents\17. XML\Classes\AppDelegate.h
+		..\Contents\17. XML\Classes\HelloWorldScene.cpp = ..\Contents\17. XML\Classes\HelloWorldScene.cpp
+		..\Contents\17. XML\Classes\HelloWorldScene.h = ..\Contents\17. XML\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "18. JSON", "18. JSON", "{63433213-F23B-4935-B552-6BC48FBD3177}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex1", "Ex1", "{5CB281B4-A8CC-4854-AA3D-959A512357B6}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\18. JSON\Classes\AppDelegate.cpp = ..\Contents\18. JSON\Classes\AppDelegate.cpp
+		..\Contents\18. JSON\Classes\AppDelegate.h = ..\Contents\18. JSON\Classes\AppDelegate.h
+		..\Contents\18. JSON\Classes\HelloWorldScene.cpp = ..\Contents\18. JSON\Classes\HelloWorldScene.cpp
+		..\Contents\18. JSON\Classes\HelloWorldScene.h = ..\Contents\18. JSON\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pugixml", "pugixml", "{5191BC2E-A3B5-4CA5-8FF2-878BFADC2EA4}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\17. XML\Classes\pugixml\pugiconfig.hpp = ..\Contents\17. XML\Classes\pugixml\pugiconfig.hpp
+		..\Contents\17. XML\Classes\pugixml\pugixml.cpp = ..\Contents\17. XML\Classes\pugixml\pugixml.cpp
+		..\Contents\17. XML\Classes\pugixml\pugixml.hpp = ..\Contents\17. XML\Classes\pugixml\pugixml.hpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "rapidjson", "rapidjson", "{7A11573E-695F-43C1-A58C-4D18669C91DE}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\18. JSON\Classes\rapidjson\document.h = ..\Contents\18. JSON\Classes\rapidjson\document.h
+		..\Contents\18. JSON\Classes\rapidjson\filestream.h = ..\Contents\18. JSON\Classes\rapidjson\filestream.h
+		..\Contents\18. JSON\Classes\rapidjson\prettywriter.h = ..\Contents\18. JSON\Classes\rapidjson\prettywriter.h
+		..\Contents\18. JSON\Classes\rapidjson\rapidjson.h = ..\Contents\18. JSON\Classes\rapidjson\rapidjson.h
+		..\Contents\18. JSON\Classes\rapidjson\reader.h = ..\Contents\18. JSON\Classes\rapidjson\reader.h
+		..\Contents\18. JSON\Classes\rapidjson\stringbuffer.h = ..\Contents\18. JSON\Classes\rapidjson\stringbuffer.h
+		..\Contents\18. JSON\Classes\rapidjson\writer.h = ..\Contents\18. JSON\Classes\rapidjson\writer.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "internal", "internal", "{F54A1414-8B4E-4433-A8B8-109785570A96}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\18. JSON\Classes\rapidjson\internal\pow10.h = ..\Contents\18. JSON\Classes\rapidjson\internal\pow10.h
+		..\Contents\18. JSON\Classes\rapidjson\internal\stack.h = ..\Contents\18. JSON\Classes\rapidjson\internal\stack.h
+		..\Contents\18. JSON\Classes\rapidjson\internal\strfunc.h = ..\Contents\18. JSON\Classes\rapidjson\internal\strfunc.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "19. Accelerometor", "19. Accelerometor", "{CA78B4F5-26BF-49AF-B26C-17814DCDF3B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex1", "Ex1", "{5F4D84D7-EF04-4467-AB81-737D9BC8F880}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\19. Accelerometor\AccelerometorEx\Classes\AppDelegate.cpp = ..\Contents\19. Accelerometor\AccelerometorEx\Classes\AppDelegate.cpp
+		..\Contents\19. Accelerometor\AccelerometorEx\Classes\AppDelegate.h = ..\Contents\19. Accelerometor\AccelerometorEx\Classes\AppDelegate.h
+		..\Contents\19. Accelerometor\AccelerometorEx\Classes\HelloWorldScene.cpp = ..\Contents\19. Accelerometor\AccelerometorEx\Classes\HelloWorldScene.cpp
+		..\Contents\19. Accelerometor\AccelerometorEx\Classes\HelloWorldScene.h = ..\Contents\19. Accelerometor\AccelerometorEx\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20. Scroll", "20. Scroll", "{F1006626-9A72-4C37-9797-BF7F735D0DDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "21. Table", "21. Table", "{4CD033E6-674E-452E-9183-AE212EEA3EA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex1", "Ex1", "{147E08C2-B82D-409E-8CE9-F4DE9470592A}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\20. Scroll\Classes\AppDelegate.cpp = ..\Contents\20. Scroll\Classes\AppDelegate.cpp
+		..\Contents\20. Scroll\Classes\AppDelegate.h = ..\Contents\20. Scroll\Classes\AppDelegate.h
+		..\Contents\20. Scroll\Classes\HelloWorldScene.cpp = ..\Contents\20. Scroll\Classes\HelloWorldScene.cpp
+		..\Contents\20. Scroll\Classes\HelloWorldScene.h = ..\Contents\20. Scroll\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex1", "Ex1", "{3C8F67FE-3E1E-48D6-ACC1-B91FD08491FB}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\TableEx\Classes\Classes\AppDelegate.cpp = ..\..\TableEx\Classes\Classes\AppDelegate.cpp
+		..\..\TableEx\Classes\Classes\AppDelegate.h = ..\..\TableEx\Classes\Classes\AppDelegate.h
+		..\..\TableEx\Classes\Classes\CustomTableView.h = ..\..\TableEx\Classes\Classes\CustomTableView.h
+		..\..\TableEx\Classes\Classes\CustomTableViewCell.cpp = ..\..\TableEx\Classes\Classes\CustomTableViewCell.cpp
+		..\..\TableEx\Classes\Classes\HelloWorldScene.cpp = ..\..\TableEx\Classes\Classes\HelloWorldScene.cpp
+		..\..\TableEx\Classes\Classes\HelloWorldScene.h = ..\..\TableEx\Classes\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09. BrickGame", "09. BrickGame", "{6F159C47-8F2D-40B7-8AC0-2576A5FD1F14}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Etc. Exam\09. BrickGame\Classes\AppDelegate.cpp = ..\Contents\Etc. Exam\09. BrickGame\Classes\AppDelegate.cpp
+		..\Contents\Etc. Exam\09. BrickGame\Classes\AppDelegate.h = ..\Contents\Etc. Exam\09. BrickGame\Classes\AppDelegate.h
+		..\Contents\Etc. Exam\09. BrickGame\Classes\HelloWorldScene.cpp = ..\Contents\Etc. Exam\09. BrickGame\Classes\HelloWorldScene.cpp
+		..\Contents\Etc. Exam\09. BrickGame\Classes\HelloWorldScene.h = ..\Contents\Etc. Exam\09. BrickGame\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08. Draw LIne", "08. Draw LIne", "{6E43AD88-7EF1-4D9D-A691-2F35F6B20996}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Extra\08. Draw Line\Classes\AppDelegate.cpp = ..\Contents\Extra\08. Draw Line\Classes\AppDelegate.cpp
+		..\Contents\Extra\08. Draw Line\Classes\AppDelegate.h = ..\Contents\Extra\08. Draw Line\Classes\AppDelegate.h
+		..\Contents\Extra\08. Draw Line\Classes\HelloWorldScene.cpp = ..\Contents\Extra\08. Draw Line\Classes\HelloWorldScene.cpp
+		..\Contents\Extra\08. Draw Line\Classes\HelloWorldScene.h = ..\Contents\Extra\08. Draw Line\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09. SaveScreenShot", "09. SaveScreenShot", "{A381D617-96A0-4B98-A1F9-51A6D32DCF9C}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Extra\09. SaveScreenShot\Classes\AppDelegate.cpp = ..\Contents\Extra\09. SaveScreenShot\Classes\AppDelegate.cpp
+		..\Contents\Extra\09. SaveScreenShot\Classes\AppDelegate.h = ..\Contents\Extra\09. SaveScreenShot\Classes\AppDelegate.h
+		..\Contents\Extra\09. SaveScreenShot\Classes\HelloWorldScene.cpp = ..\Contents\Extra\09. SaveScreenShot\Classes\HelloWorldScene.cpp
+		..\Contents\Extra\09. SaveScreenShot\Classes\HelloWorldScene.h = ..\Contents\Extra\09. SaveScreenShot\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10. PaintPicture", "10. PaintPicture", "{0FC1C0DB-66E1-4C7C-BFBF-1D68EED850B9}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Etc. Exam\10. PaintPIcture\Classes\AppDelegate.cpp = ..\Contents\Etc. Exam\10. PaintPIcture\Classes\AppDelegate.cpp
+		..\Contents\Etc. Exam\10. PaintPIcture\Classes\AppDelegate.h = ..\Contents\Etc. Exam\10. PaintPIcture\Classes\AppDelegate.h
+		..\Contents\Etc. Exam\10. PaintPIcture\Classes\HelloWorldScene.cpp = ..\Contents\Etc. Exam\10. PaintPIcture\Classes\HelloWorldScene.cpp
+		..\Contents\Etc. Exam\10. PaintPIcture\Classes\HelloWorldScene.h = ..\Contents\Etc. Exam\10. PaintPIcture\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "22. Camera", "22. Camera", "{E23E1FC9-F0B8-44E7-9C0F-901DE898D549}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex1", "Ex1", "{65156BA2-82C4-4DA7-979C-0C3607EFBB9B}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\22. Camera\Ex1\Classes\AppDelegate.cpp = ..\Contents\22. Camera\Ex1\Classes\AppDelegate.cpp
+		..\Contents\22. Camera\Ex1\Classes\AppDelegate.h = ..\Contents\22. Camera\Ex1\Classes\AppDelegate.h
+		..\Contents\22. Camera\Ex1\Classes\HelloWorldScene.cpp = ..\Contents\22. Camera\Ex1\Classes\HelloWorldScene.cpp
+		..\Contents\22. Camera\Ex1\Classes\HelloWorldScene.h = ..\Contents\22. Camera\Ex1\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex2", "Ex2", "{63F7F995-CADF-4880-B3F1-1B19EE76100F}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\22. Camera\Ex2\Classes\AppDelegate.cpp = ..\Contents\22. Camera\Ex2\Classes\AppDelegate.cpp
+		..\Contents\22. Camera\Ex2\Classes\AppDelegate.h = ..\Contents\22. Camera\Ex2\Classes\AppDelegate.h
+		..\Contents\22. Camera\Ex2\Classes\HelloWorldScene.cpp = ..\Contents\22. Camera\Ex2\Classes\HelloWorldScene.cpp
+		..\Contents\22. Camera\Ex2\Classes\HelloWorldScene.h = ..\Contents\22. Camera\Ex2\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex3", "Ex3", "{69F65868-96D2-48E1-B6A8-7861766668F7}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\22. Camera\Ex3\Classes\AppDelegate.cpp = ..\Contents\22. Camera\Ex3\Classes\AppDelegate.cpp
+		..\Contents\22. Camera\Ex3\Classes\AppDelegate.h = ..\Contents\22. Camera\Ex3\Classes\AppDelegate.h
+		..\Contents\22. Camera\Ex3\Classes\HelloWorldScene.cpp = ..\Contents\22. Camera\Ex3\Classes\HelloWorldScene.cpp
+		..\Contents\22. Camera\Ex3\Classes\HelloWorldScene.h = ..\Contents\22. Camera\Ex3\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex4", "Ex4", "{4AD62959-F163-4311-8F0F-85AC77554C9A}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\22. Camera\Ex4\Classes\AppDelegate.cpp = ..\Contents\22. Camera\Ex4\Classes\AppDelegate.cpp
+		..\Contents\22. Camera\Ex4\Classes\AppDelegate.h = ..\Contents\22. Camera\Ex4\Classes\AppDelegate.h
+		..\Contents\22. Camera\Ex4\Classes\HelloWorldScene.cpp = ..\Contents\22. Camera\Ex4\Classes\HelloWorldScene.cpp
+		..\Contents\22. Camera\Ex4\Classes\HelloWorldScene.h = ..\Contents\22. Camera\Ex4\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11. Capture", "11. Capture", "{3C55FE3D-B374-4370-B07F-07C139889871}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Extra\11. Capture\Classes\AppDelegate.cpp = ..\Contents\Extra\11. Capture\Classes\AppDelegate.cpp
+		..\Contents\Extra\11. Capture\Classes\AppDelegate.h = ..\Contents\Extra\11. Capture\Classes\AppDelegate.h
+		..\Contents\Extra\11. Capture\Classes\HelloWorldScene.cpp = ..\Contents\Extra\11. Capture\Classes\HelloWorldScene.cpp
+		..\Contents\Extra\11. Capture\Classes\HelloWorldScene.h = ..\Contents\Extra\11. Capture\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12. MiniMap", "12. MiniMap", "{FD4841BA-787F-4E45-B949-C9762AD8B34E}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Extra\12. MiniMap\Classes\AppDelegate.cpp = ..\Contents\Extra\12. MiniMap\Classes\AppDelegate.cpp
+		..\Contents\Extra\12. MiniMap\Classes\AppDelegate.h = ..\Contents\Extra\12. MiniMap\Classes\AppDelegate.h
+		..\Contents\Extra\12. MiniMap\Classes\HelloWorldScene.cpp = ..\Contents\Extra\12. MiniMap\Classes\HelloWorldScene.cpp
+		..\Contents\Extra\12. MiniMap\Classes\HelloWorldScene.h = ..\Contents\Extra\12. MiniMap\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10. ActionFollow", "10. ActionFollow", "{6C782A35-EC3E-4152-9704-89720FBA7D30}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Extra\10. ActionFollow\Classes\AppDelegate.cpp = ..\Contents\Extra\10. ActionFollow\Classes\AppDelegate.cpp
+		..\Contents\Extra\10. ActionFollow\Classes\AppDelegate.h = ..\Contents\Extra\10. ActionFollow\Classes\AppDelegate.h
+		..\Contents\Extra\10. ActionFollow\Classes\HelloWorldScene.cpp = ..\Contents\Extra\10. ActionFollow\Classes\HelloWorldScene.cpp
+		..\Contents\Extra\10. ActionFollow\Classes\HelloWorldScene.h = ..\Contents\Extra\10. ActionFollow\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13. Notification", "13. Notification", "{6E704BB5-CAD1-4A03-A1A6-9E12CBB057E4}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Extra\13. Notification\Classes\AppDelegate.cpp = ..\Contents\Extra\13. Notification\Classes\AppDelegate.cpp
+		..\Contents\Extra\13. Notification\Classes\AppDelegate.h = ..\Contents\Extra\13. Notification\Classes\AppDelegate.h
+		..\Contents\Extra\13. Notification\Classes\HelloWorldScene.cpp = ..\Contents\Extra\13. Notification\Classes\HelloWorldScene.cpp
+		..\Contents\Extra\13. Notification\Classes\HelloWorldScene.h = ..\Contents\Extra\13. Notification\Classes\HelloWorldScene.h
+		..\Contents\Extra\13. Notification\Classes\SecondScene.cpp = ..\Contents\Extra\13. Notification\Classes\SecondScene.cpp
+		..\Contents\Extra\13. Notification\Classes\SecondScene.h = ..\Contents\Extra\13. Notification\Classes\SecondScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14. PauseSchedule", "14. PauseSchedule", "{0EEAC627-970B-4319-B0E4-17266D7839BD}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Extra\14. PauseSchedule\Classes\AppDelegate.cpp = ..\Contents\Extra\14. PauseSchedule\Classes\AppDelegate.cpp
+		..\Contents\Extra\14. PauseSchedule\Classes\AppDelegate.h = ..\Contents\Extra\14. PauseSchedule\Classes\AppDelegate.h
+		..\Contents\Extra\14. PauseSchedule\Classes\HelloWorldScene.cpp = ..\Contents\Extra\14. PauseSchedule\Classes\HelloWorldScene.cpp
+		..\Contents\Extra\14. PauseSchedule\Classes\HelloWorldScene.h = ..\Contents\Extra\14. PauseSchedule\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15. Mask", "15. Mask", "{650E204A-D140-42B2-929E-5B441BE4EABD}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Extra\15. Mask\Classes\AppDelegate.cpp = ..\Contents\Extra\15. Mask\Classes\AppDelegate.cpp
+		..\Contents\Extra\15. Mask\Classes\AppDelegate.h = ..\Contents\Extra\15. Mask\Classes\AppDelegate.h
+		..\Contents\Extra\15. Mask\Classes\HelloWorldScene.cpp = ..\Contents\Extra\15. Mask\Classes\HelloWorldScene.cpp
+		..\Contents\Extra\15. Mask\Classes\HelloWorldScene.h = ..\Contents\Extra\15. Mask\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "23. Box2D", "23. Box2D", "{A7D51EDA-D9D7-4411-8056-9134C59EBE99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex01", "Ex01", "{52CCDB34-70DA-4B64-BA85-2065273CBC70}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\23. Box2D\Ex1\Classes\AppDelegate.cpp = ..\Contents\23. Box2D\Ex1\Classes\AppDelegate.cpp
+		..\Contents\23. Box2D\Ex1\Classes\AppDelegate.h = ..\Contents\23. Box2D\Ex1\Classes\AppDelegate.h
+		..\Contents\23. Box2D\Ex1\Classes\HelloWorldScene.cpp = ..\Contents\23. Box2D\Ex1\Classes\HelloWorldScene.cpp
+		..\Contents\23. Box2D\Ex1\Classes\HelloWorldScene.h = ..\Contents\23. Box2D\Ex1\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11. Crystal Craze", "11. Crystal Craze", "{1B9224E0-D883-4C6C-AB5A-97DDE39A367E}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Etc. Exam\11. CrystalCraze\Classes\AppDelegate.cpp = ..\Contents\Etc. Exam\11. CrystalCraze\Classes\AppDelegate.cpp
+		..\Contents\Etc. Exam\11. CrystalCraze\Classes\AppDelegate.h = ..\Contents\Etc. Exam\11. CrystalCraze\Classes\AppDelegate.h
+		..\Contents\Etc. Exam\11. CrystalCraze\Classes\Game.cpp = ..\Contents\Etc. Exam\11. CrystalCraze\Classes\Game.cpp
+		..\Contents\Etc. Exam\11. CrystalCraze\Classes\Game.h = ..\Contents\Etc. Exam\11. CrystalCraze\Classes\Game.h
+		..\Contents\Etc. Exam\11. CrystalCraze\Classes\GlobalDefinition.h = ..\Contents\Etc. Exam\11. CrystalCraze\Classes\GlobalDefinition.h
+		..\Contents\Etc. Exam\11. CrystalCraze\Classes\HelloWorldScene.cpp = ..\Contents\Etc. Exam\11. CrystalCraze\Classes\HelloWorldScene.cpp
+		..\Contents\Etc. Exam\11. CrystalCraze\Classes\HelloWorldScene.h = ..\Contents\Etc. Exam\11. CrystalCraze\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex02", "Ex02", "{850B0AFD-065B-4A31-91EE-FDC273E838AF}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\23. Box2D\Ex2\Classes\AppDelegate.cpp = ..\Contents\23. Box2D\Ex2\Classes\AppDelegate.cpp
+		..\Contents\23. Box2D\Ex2\Classes\AppDelegate.h = ..\Contents\23. Box2D\Ex2\Classes\AppDelegate.h
+		..\Contents\23. Box2D\Ex2\Classes\GLES-Render.cpp = ..\Contents\23. Box2D\Ex2\Classes\GLES-Render.cpp
+		..\Contents\23. Box2D\Ex2\Classes\GLES-Render.h = ..\Contents\23. Box2D\Ex2\Classes\GLES-Render.h
+		..\Contents\23. Box2D\Ex2\Classes\HelloWorldScene.cpp = ..\Contents\23. Box2D\Ex2\Classes\HelloWorldScene.cpp
+		..\Contents\23. Box2D\Ex2\Classes\HelloWorldScene.h = ..\Contents\23. Box2D\Ex2\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex03", "Ex03", "{94150162-276F-40F6-9471-5FA5C45518C8}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\23. Box2D\Ex3\Classes\AppDelegate.cpp = ..\Contents\23. Box2D\Ex3\Classes\AppDelegate.cpp
+		..\Contents\23. Box2D\Ex3\Classes\AppDelegate.h = ..\Contents\23. Box2D\Ex3\Classes\AppDelegate.h
+		..\Contents\23. Box2D\Ex3\Classes\GLES-Render.cpp = ..\Contents\23. Box2D\Ex3\Classes\GLES-Render.cpp
+		..\Contents\23. Box2D\Ex3\Classes\GLES-Render.h = ..\Contents\23. Box2D\Ex3\Classes\GLES-Render.h
+		..\Contents\23. Box2D\Ex3\Classes\HelloWorldScene.cpp = ..\Contents\23. Box2D\Ex3\Classes\HelloWorldScene.cpp
+		..\Contents\23. Box2D\Ex3\Classes\HelloWorldScene.h = ..\Contents\23. Box2D\Ex3\Classes\HelloWorldScene.h
+		..\Contents\23. Box2D\Ex3\Classes\MyBodyParser.cpp = ..\Contents\23. Box2D\Ex3\Classes\MyBodyParser.cpp
+		..\Contents\23. Box2D\Ex3\Classes\MyBodyParser.h = ..\Contents\23. Box2D\Ex3\Classes\MyBodyParser.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex04", "Ex04", "{8431A111-0FE7-442A-BB6C-CF56504DF138}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\23. Box2D\Ex4\Classes\AppDelegate.cpp = ..\Contents\23. Box2D\Ex4\Classes\AppDelegate.cpp
+		..\Contents\23. Box2D\Ex4\Classes\AppDelegate.h = ..\Contents\23. Box2D\Ex4\Classes\AppDelegate.h
+		..\Contents\23. Box2D\Ex4\Classes\GLES-Render.cpp = ..\Contents\23. Box2D\Ex4\Classes\GLES-Render.cpp
+		..\Contents\23. Box2D\Ex4\Classes\GLES-Render.h = ..\Contents\23. Box2D\Ex4\Classes\GLES-Render.h
+		..\Contents\23. Box2D\Ex4\Classes\HelloWorldScene.cpp = ..\Contents\23. Box2D\Ex4\Classes\HelloWorldScene.cpp
+		..\Contents\23. Box2D\Ex4\Classes\HelloWorldScene.h = ..\Contents\23. Box2D\Ex4\Classes\HelloWorldScene.h
+		..\Contents\23. Box2D\Ex4\Classes\MyBodyParser.cpp = ..\Contents\23. Box2D\Ex4\Classes\MyBodyParser.cpp
+		..\Contents\23. Box2D\Ex4\Classes\MyBodyParser.h = ..\Contents\23. Box2D\Ex4\Classes\MyBodyParser.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex05", "Ex05", "{753E81EB-02DC-4F94-974A-BAC60D24C659}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\23. Box2D\Ex5\Classes\AppDelegate.cpp = ..\Contents\23. Box2D\Ex5\Classes\AppDelegate.cpp
+		..\Contents\23. Box2D\Ex5\Classes\AppDelegate.h = ..\Contents\23. Box2D\Ex5\Classes\AppDelegate.h
+		..\Contents\23. Box2D\Ex5\Classes\GLES-Render.cpp = ..\Contents\23. Box2D\Ex5\Classes\GLES-Render.cpp
+		..\Contents\23. Box2D\Ex5\Classes\GLES-Render.h = ..\Contents\23. Box2D\Ex5\Classes\GLES-Render.h
+		..\Contents\23. Box2D\Ex5\Classes\HelloWorldScene.cpp = ..\Contents\23. Box2D\Ex5\Classes\HelloWorldScene.cpp
+		..\Contents\23. Box2D\Ex5\Classes\HelloWorldScene.h = ..\Contents\23. Box2D\Ex5\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex06", "Ex06", "{DCE71747-000C-48B9-885F-4FB945F9E889}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\23. Box2D\Ex6\Classes\AppDelegate.cpp = ..\Contents\23. Box2D\Ex6\Classes\AppDelegate.cpp
+		..\Contents\23. Box2D\Ex6\Classes\AppDelegate.h = ..\Contents\23. Box2D\Ex6\Classes\AppDelegate.h
+		..\Contents\23. Box2D\Ex6\Classes\GLES-Render.cpp = ..\Contents\23. Box2D\Ex6\Classes\GLES-Render.cpp
+		..\Contents\23. Box2D\Ex6\Classes\GLES-Render.h = ..\Contents\23. Box2D\Ex6\Classes\GLES-Render.h
+		..\Contents\23. Box2D\Ex6\Classes\HelloWorldScene.cpp = ..\Contents\23. Box2D\Ex6\Classes\HelloWorldScene.cpp
+		..\Contents\23. Box2D\Ex6\Classes\HelloWorldScene.h = ..\Contents\23. Box2D\Ex6\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex07", "Ex07", "{6D64FA74-6AA1-45E2-8A07-2FC519DA4AC4}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\23. Box2D\Ex7\Classes\AppDelegate.cpp = ..\Contents\23. Box2D\Ex7\Classes\AppDelegate.cpp
+		..\Contents\23. Box2D\Ex7\Classes\AppDelegate.h = ..\Contents\23. Box2D\Ex7\Classes\AppDelegate.h
+		..\Contents\23. Box2D\Ex7\Classes\GLES-Render.cpp = ..\Contents\23. Box2D\Ex7\Classes\GLES-Render.cpp
+		..\Contents\23. Box2D\Ex7\Classes\GLES-Render.h = ..\Contents\23. Box2D\Ex7\Classes\GLES-Render.h
+		..\Contents\23. Box2D\Ex7\Classes\HelloWorldScene.cpp = ..\Contents\23. Box2D\Ex7\Classes\HelloWorldScene.cpp
+		..\Contents\23. Box2D\Ex7\Classes\HelloWorldScene.h = ..\Contents\23. Box2D\Ex7\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex08", "Ex08", "{61B2594D-8F95-45C8-A0F9-8AA9E445CACC}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\23. Box2D\Ex8\Classes\AppDelegate.cpp = ..\Contents\23. Box2D\Ex8\Classes\AppDelegate.cpp
+		..\Contents\23. Box2D\Ex8\Classes\AppDelegate.h = ..\Contents\23. Box2D\Ex8\Classes\AppDelegate.h
+		..\Contents\23. Box2D\Ex8\Classes\GLES-Render.cpp = ..\Contents\23. Box2D\Ex8\Classes\GLES-Render.cpp
+		..\Contents\23. Box2D\Ex8\Classes\GLES-Render.h = ..\Contents\23. Box2D\Ex8\Classes\GLES-Render.h
+		..\Contents\23. Box2D\Ex8\Classes\HelloWorldScene.cpp = ..\Contents\23. Box2D\Ex8\Classes\HelloWorldScene.cpp
+		..\Contents\23. Box2D\Ex8\Classes\HelloWorldScene.h = ..\Contents\23. Box2D\Ex8\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex09", "Ex09", "{993E54CA-525F-43E2-9ACB-643F3085005B}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\23. Box2D\Ex9\Classes\AppDelegate.cpp = ..\Contents\23. Box2D\Ex9\Classes\AppDelegate.cpp
+		..\Contents\23. Box2D\Ex9\Classes\AppDelegate.h = ..\Contents\23. Box2D\Ex9\Classes\AppDelegate.h
+		..\Contents\23. Box2D\Ex9\Classes\GLES-Render.cpp = ..\Contents\23. Box2D\Ex9\Classes\GLES-Render.cpp
+		..\Contents\23. Box2D\Ex9\Classes\GLES-Render.h = ..\Contents\23. Box2D\Ex9\Classes\GLES-Render.h
+		..\Contents\23. Box2D\Ex9\Classes\HelloWorldScene.cpp = ..\Contents\23. Box2D\Ex9\Classes\HelloWorldScene.cpp
+		..\Contents\23. Box2D\Ex9\Classes\HelloWorldScene.h = ..\Contents\23. Box2D\Ex9\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex10", "Ex10", "{6DD56C33-61A1-43AB-AB01-18C49F5E1F4E}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\23. Box2D\Ex10\Classes\AppDelegate.cpp = ..\Contents\23. Box2D\Ex10\Classes\AppDelegate.cpp
+		..\Contents\23. Box2D\Ex10\Classes\AppDelegate.h = ..\Contents\23. Box2D\Ex10\Classes\AppDelegate.h
+		..\Contents\23. Box2D\Ex10\Classes\GLES-Render.cpp = ..\Contents\23. Box2D\Ex10\Classes\GLES-Render.cpp
+		..\Contents\23. Box2D\Ex10\Classes\GLES-Render.h = ..\Contents\23. Box2D\Ex10\Classes\GLES-Render.h
+		..\Contents\23. Box2D\Ex10\Classes\HelloWorldScene.cpp = ..\Contents\23. Box2D\Ex10\Classes\HelloWorldScene.cpp
+		..\Contents\23. Box2D\Ex10\Classes\HelloWorldScene.h = ..\Contents\23. Box2D\Ex10\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex11", "Ex11", "{721097E4-1511-4C5F-B86B-EB35E2D0D6D5}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\23. Box2D\Ex11\Classes\AppDelegate.cpp = ..\Contents\23. Box2D\Ex11\Classes\AppDelegate.cpp
+		..\Contents\23. Box2D\Ex11\Classes\AppDelegate.h = ..\Contents\23. Box2D\Ex11\Classes\AppDelegate.h
+		..\Contents\23. Box2D\Ex11\Classes\GLES-Render.cpp = ..\Contents\23. Box2D\Ex11\Classes\GLES-Render.cpp
+		..\Contents\23. Box2D\Ex11\Classes\GLES-Render.h = ..\Contents\23. Box2D\Ex11\Classes\GLES-Render.h
+		..\Contents\23. Box2D\Ex11\Classes\HelloWorldScene.cpp = ..\Contents\23. Box2D\Ex11\Classes\HelloWorldScene.cpp
+		..\Contents\23. Box2D\Ex11\Classes\HelloWorldScene.h = ..\Contents\23. Box2D\Ex11\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex12", "Ex12", "{A0B2FD67-9EEE-4DAE-83F2-6C8CCC3D380F}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\23. Box2D\Ex12\Classes\AppDelegate.cpp = ..\Contents\23. Box2D\Ex12\Classes\AppDelegate.cpp
+		..\Contents\23. Box2D\Ex12\Classes\AppDelegate.h = ..\Contents\23. Box2D\Ex12\Classes\AppDelegate.h
+		..\Contents\23. Box2D\Ex12\Classes\GLES-Render.cpp = ..\Contents\23. Box2D\Ex12\Classes\GLES-Render.cpp
+		..\Contents\23. Box2D\Ex12\Classes\GLES-Render.h = ..\Contents\23. Box2D\Ex12\Classes\GLES-Render.h
+		..\Contents\23. Box2D\Ex12\Classes\HelloWorldScene.cpp = ..\Contents\23. Box2D\Ex12\Classes\HelloWorldScene.cpp
+		..\Contents\23. Box2D\Ex12\Classes\HelloWorldScene.h = ..\Contents\23. Box2D\Ex12\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex13", "Ex13", "{6EA5A3F7-20E1-4932-A3FC-A92F869C1BB9}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\23. Box2D\Ex13\Classes\AppDelegate.cpp = ..\Contents\23. Box2D\Ex13\Classes\AppDelegate.cpp
+		..\Contents\23. Box2D\Ex13\Classes\AppDelegate.h = ..\Contents\23. Box2D\Ex13\Classes\AppDelegate.h
+		..\Contents\23. Box2D\Ex13\Classes\GLES-Render.cpp = ..\Contents\23. Box2D\Ex13\Classes\GLES-Render.cpp
+		..\Contents\23. Box2D\Ex13\Classes\GLES-Render.h = ..\Contents\23. Box2D\Ex13\Classes\GLES-Render.h
+		..\Contents\23. Box2D\Ex13\Classes\HelloWorldScene.cpp = ..\Contents\23. Box2D\Ex13\Classes\HelloWorldScene.cpp
+		..\Contents\23. Box2D\Ex13\Classes\HelloWorldScene.h = ..\Contents\23. Box2D\Ex13\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex14", "Ex14", "{15296FD1-EEE3-4CA2-B9A8-276B370E7ACA}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\23. Box2D\Ex14\Classes\AppDelegate.cpp = ..\Contents\23. Box2D\Ex14\Classes\AppDelegate.cpp
+		..\Contents\23. Box2D\Ex14\Classes\AppDelegate.h = ..\Contents\23. Box2D\Ex14\Classes\AppDelegate.h
+		..\Contents\23. Box2D\Ex14\Classes\GLES-Render.cpp = ..\Contents\23. Box2D\Ex14\Classes\GLES-Render.cpp
+		..\Contents\23. Box2D\Ex14\Classes\GLES-Render.h = ..\Contents\23. Box2D\Ex14\Classes\GLES-Render.h
+		..\Contents\23. Box2D\Ex14\Classes\HelloWorldScene.cpp = ..\Contents\23. Box2D\Ex14\Classes\HelloWorldScene.cpp
+		..\Contents\23. Box2D\Ex14\Classes\HelloWorldScene.h = ..\Contents\23. Box2D\Ex14\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex15", "Ex15", "{AD481CB3-7890-4B01-AD15-CF1212247BA9}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\23. Box2D\Ex15\Classes\AppDelegate.cpp = ..\Contents\23. Box2D\Ex15\Classes\AppDelegate.cpp
+		..\Contents\23. Box2D\Ex15\Classes\AppDelegate.h = ..\Contents\23. Box2D\Ex15\Classes\AppDelegate.h
+		..\Contents\23. Box2D\Ex15\Classes\ContactListener.cpp = ..\Contents\23. Box2D\Ex15\Classes\ContactListener.cpp
+		..\Contents\23. Box2D\Ex15\Classes\ContactListener.h = ..\Contents\23. Box2D\Ex15\Classes\ContactListener.h
+		..\Contents\23. Box2D\Ex15\Classes\GLES-Render.cpp = ..\Contents\23. Box2D\Ex15\Classes\GLES-Render.cpp
+		..\Contents\23. Box2D\Ex15\Classes\GLES-Render.h = ..\Contents\23. Box2D\Ex15\Classes\GLES-Render.h
+		..\Contents\23. Box2D\Ex15\Classes\HelloWorldScene.cpp = ..\Contents\23. Box2D\Ex15\Classes\HelloWorldScene.cpp
+		..\Contents\23. Box2D\Ex15\Classes\HelloWorldScene.h = ..\Contents\23. Box2D\Ex15\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex16", "Ex16", "{2252DE20-3ABE-4DA4-8AD7-E3BE28317EF4}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Box2D_Ex16\Classes\AppDelegate.cpp = ..\..\Box2D_Ex16\Classes\AppDelegate.cpp
+		..\..\Box2D_Ex16\Classes\AppDelegate.h = ..\..\Box2D_Ex16\Classes\AppDelegate.h
+		..\..\Box2D_Ex16\Classes\GLES-Render.cpp = ..\..\Box2D_Ex16\Classes\GLES-Render.cpp
+		..\..\Box2D_Ex16\Classes\GLES-Render.h = ..\..\Box2D_Ex16\Classes\GLES-Render.h
+		..\..\Box2D_Ex16\Classes\HelloWorldScene.cpp = ..\..\Box2D_Ex16\Classes\HelloWorldScene.cpp
+		..\..\Box2D_Ex16\Classes\HelloWorldScene.h = ..\..\Box2D_Ex16\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex17", "Ex17", "{34F1F756-DD62-4158-BC73-5BB84F95BED8}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\23. Box2D\Ex17\Classes\AppDelegate.cpp = ..\Contents\23. Box2D\Ex17\Classes\AppDelegate.cpp
+		..\Contents\23. Box2D\Ex17\Classes\AppDelegate.h = ..\Contents\23. Box2D\Ex17\Classes\AppDelegate.h
+		..\Contents\23. Box2D\Ex17\Classes\GLES-Render.cpp = ..\Contents\23. Box2D\Ex17\Classes\GLES-Render.cpp
+		..\Contents\23. Box2D\Ex17\Classes\GLES-Render.h = ..\Contents\23. Box2D\Ex17\Classes\GLES-Render.h
+		..\Contents\23. Box2D\Ex17\Classes\HelloWorldScene.cpp = ..\Contents\23. Box2D\Ex17\Classes\HelloWorldScene.cpp
+		..\Contents\23. Box2D\Ex17\Classes\HelloWorldScene.h = ..\Contents\23. Box2D\Ex17\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex18", "Ex18", "{AB9C1FCA-5504-43F4-86E5-74C190F288F4}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\23. Box2D\Ex18\Classes\AppDelegate.cpp = ..\Contents\23. Box2D\Ex18\Classes\AppDelegate.cpp
+		..\Contents\23. Box2D\Ex18\Classes\AppDelegate.h = ..\Contents\23. Box2D\Ex18\Classes\AppDelegate.h
+		..\Contents\23. Box2D\Ex18\Classes\GLES-Render.cpp = ..\Contents\23. Box2D\Ex18\Classes\GLES-Render.cpp
+		..\Contents\23. Box2D\Ex18\Classes\GLES-Render.h = ..\Contents\23. Box2D\Ex18\Classes\GLES-Render.h
+		..\Contents\23. Box2D\Ex18\Classes\HelloWorldScene.cpp = ..\Contents\23. Box2D\Ex18\Classes\HelloWorldScene.cpp
+		..\Contents\23. Box2D\Ex18\Classes\HelloWorldScene.h = ..\Contents\23. Box2D\Ex18\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex19", "Ex19", "{F6113707-DF40-4B41-A3C0-EB86607A58D4}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\23. Box2D\Ex19\Classes\AppDelegate.cpp = ..\Contents\23. Box2D\Ex19\Classes\AppDelegate.cpp
+		..\Contents\23. Box2D\Ex19\Classes\AppDelegate.h = ..\Contents\23. Box2D\Ex19\Classes\AppDelegate.h
+		..\Contents\23. Box2D\Ex19\Classes\GLES-Render.cpp = ..\Contents\23. Box2D\Ex19\Classes\GLES-Render.cpp
+		..\Contents\23. Box2D\Ex19\Classes\GLES-Render.h = ..\Contents\23. Box2D\Ex19\Classes\GLES-Render.h
+		..\Contents\23. Box2D\Ex19\Classes\HelloWorldScene.cpp = ..\Contents\23. Box2D\Ex19\Classes\HelloWorldScene.cpp
+		..\Contents\23. Box2D\Ex19\Classes\HelloWorldScene.h = ..\Contents\23. Box2D\Ex19\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex20", "Ex20", "{47739391-4695-4BFA-8131-120F20020B0F}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Box2D_Ex20\Classes\AppDelegate.cpp = ..\..\Box2D_Ex20\Classes\AppDelegate.cpp
+		..\..\Box2D_Ex20\Classes\AppDelegate.h = ..\..\Box2D_Ex20\Classes\AppDelegate.h
+		..\..\Box2D_Ex20\Classes\GLES-Render.cpp = ..\..\Box2D_Ex20\Classes\GLES-Render.cpp
+		..\..\Box2D_Ex20\Classes\GLES-Render.h = ..\..\Box2D_Ex20\Classes\GLES-Render.h
+		..\..\Box2D_Ex20\Classes\HelloWorldScene.cpp = ..\..\Box2D_Ex20\Classes\HelloWorldScene.cpp
+		..\..\Box2D_Ex20\Classes\HelloWorldScene.h = ..\..\Box2D_Ex20\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12. Cute A Pult", "12. Cute A Pult", "{417AEF4D-269D-467B-AD41-5F8F36A8109D}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Etc. Exam\12. Cute_A_Pult\Classes\AppDelegate.cpp = ..\Contents\Etc. Exam\12. Cute_A_Pult\Classes\AppDelegate.cpp
+		..\Contents\Etc. Exam\12. Cute_A_Pult\Classes\AppDelegate.h = ..\Contents\Etc. Exam\12. Cute_A_Pult\Classes\AppDelegate.h
+		..\Contents\Etc. Exam\12. Cute_A_Pult\Classes\GLES-Render.cpp = ..\Contents\Etc. Exam\12. Cute_A_Pult\Classes\GLES-Render.cpp
+		..\Contents\Etc. Exam\12. Cute_A_Pult\Classes\GLES-Render.h = ..\Contents\Etc. Exam\12. Cute_A_Pult\Classes\GLES-Render.h
+		..\Contents\Etc. Exam\12. Cute_A_Pult\Classes\HelloWorldScene.cpp = ..\Contents\Etc. Exam\12. Cute_A_Pult\Classes\HelloWorldScene.cpp
+		..\Contents\Etc. Exam\12. Cute_A_Pult\Classes\HelloWorldScene.h = ..\Contents\Etc. Exam\12. Cute_A_Pult\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "16. MotionTreak", "16. MotionTreak", "{F084D952-2F7D-4B1E-85CC-C800D86166DD}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Extra\16. MotionTreak\Classes\AppDelegate.cpp = ..\Contents\Extra\16. MotionTreak\Classes\AppDelegate.cpp
+		..\Contents\Extra\16. MotionTreak\Classes\AppDelegate.h = ..\Contents\Extra\16. MotionTreak\Classes\AppDelegate.h
+		..\Contents\Extra\16. MotionTreak\Classes\HelloWorldScene.cpp = ..\Contents\Extra\16. MotionTreak\Classes\HelloWorldScene.cpp
+		..\Contents\Extra\16. MotionTreak\Classes\HelloWorldScene.h = ..\Contents\Extra\16. MotionTreak\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "24. Joystick", "24. Joystick", "{EC0ECB83-355E-4493-80B6-7B7E7FA1743A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex1", "Ex1", "{2338106A-AF9D-460D-A15D-E3F6004D3452}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\24. Joystick\Ex1\Classes\AppDelegate.cpp = ..\Contents\24. Joystick\Ex1\Classes\AppDelegate.cpp
+		..\Contents\24. Joystick\Ex1\Classes\AppDelegate.h = ..\Contents\24. Joystick\Ex1\Classes\AppDelegate.h
+		..\Contents\24. Joystick\Ex1\Classes\HelloWorldScene.cpp = ..\Contents\24. Joystick\Ex1\Classes\HelloWorldScene.cpp
+		..\Contents\24. Joystick\Ex1\Classes\HelloWorldScene.h = ..\Contents\24. Joystick\Ex1\Classes\HelloWorldScene.h
+		..\Contents\24. Joystick\Ex1\Classes\Joystick.cpp = ..\Contents\24. Joystick\Ex1\Classes\Joystick.cpp
+		..\Contents\24. Joystick\Ex1\Classes\Joystick.h = ..\Contents\24. Joystick\Ex1\Classes\Joystick.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex2", "Ex2", "{FA1D7507-0A3C-482D-A1DE-0AF65DCEFDB0}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\24. Joystick\Ex2\Classes\AppDelegate.cpp = ..\Contents\24. Joystick\Ex2\Classes\AppDelegate.cpp
+		..\Contents\24. Joystick\Ex2\Classes\AppDelegate.h = ..\Contents\24. Joystick\Ex2\Classes\AppDelegate.h
+		..\Contents\24. Joystick\Ex2\Classes\GLES-Render.cpp = ..\Contents\24. Joystick\Ex2\Classes\GLES-Render.cpp
+		..\Contents\24. Joystick\Ex2\Classes\GLES-Render.h = ..\Contents\24. Joystick\Ex2\Classes\GLES-Render.h
+		..\Contents\24. Joystick\Ex2\Classes\HelloWorldScene.cpp = ..\Contents\24. Joystick\Ex2\Classes\HelloWorldScene.cpp
+		..\Contents\24. Joystick\Ex2\Classes\HelloWorldScene.h = ..\Contents\24. Joystick\Ex2\Classes\HelloWorldScene.h
+		..\Contents\24. Joystick\Ex2\Classes\Joystick.cpp = ..\Contents\24. Joystick\Ex2\Classes\Joystick.cpp
+		..\Contents\24. Joystick\Ex2\Classes\Joystick.h = ..\Contents\24. Joystick\Ex2\Classes\Joystick.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex3", "Ex3", "{94E53D2F-DA6B-42AA-B30C-7550622669D7}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\24. Joystick\Ex3\Classes\AppDelegate.cpp = ..\Contents\24. Joystick\Ex3\Classes\AppDelegate.cpp
+		..\Contents\24. Joystick\Ex3\Classes\AppDelegate.h = ..\Contents\24. Joystick\Ex3\Classes\AppDelegate.h
+		..\Contents\24. Joystick\Ex3\Classes\HelloWorldScene.cpp = ..\Contents\24. Joystick\Ex3\Classes\HelloWorldScene.cpp
+		..\Contents\24. Joystick\Ex3\Classes\HelloWorldScene.h = ..\Contents\24. Joystick\Ex3\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Joystick", "Joystick", "{4C4840BF-A87E-4FAD-8279-6DAF20086221}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\24. Joystick\Ex3\Classes\Joystick\ControlManager.cpp = ..\Contents\24. Joystick\Ex3\Classes\Joystick\ControlManager.cpp
+		..\Contents\24. Joystick\Ex3\Classes\Joystick\ControlManager.h = ..\Contents\24. Joystick\Ex3\Classes\Joystick\ControlManager.h
+		..\Contents\24. Joystick\Ex3\Classes\Joystick\Entity.cpp = ..\Contents\24. Joystick\Ex3\Classes\Joystick\Entity.cpp
+		..\Contents\24. Joystick\Ex3\Classes\Joystick\Entity.h = ..\Contents\24. Joystick\Ex3\Classes\Joystick\Entity.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "17. CutTheRope_1", "17. CutTheRope_1", "{64027139-7FBE-4B96-9C5A-01139BA76F44}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Extra\17. CutTheRopeEx1\Classes\AppDelegate.cpp = ..\Contents\Extra\17. CutTheRopeEx1\Classes\AppDelegate.cpp
+		..\Contents\Extra\17. CutTheRopeEx1\Classes\AppDelegate.h = ..\Contents\Extra\17. CutTheRopeEx1\Classes\AppDelegate.h
+		..\Contents\Extra\17. CutTheRopeEx1\Classes\GLES-Render.cpp = ..\Contents\Extra\17. CutTheRopeEx1\Classes\GLES-Render.cpp
+		..\Contents\Extra\17. CutTheRopeEx1\Classes\GLES-Render.h = ..\Contents\Extra\17. CutTheRopeEx1\Classes\GLES-Render.h
+		..\Contents\Extra\17. CutTheRopeEx1\Classes\HelloWorldScene.cpp = ..\Contents\Extra\17. CutTheRopeEx1\Classes\HelloWorldScene.cpp
+		..\Contents\Extra\17. CutTheRopeEx1\Classes\HelloWorldScene.h = ..\Contents\Extra\17. CutTheRopeEx1\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "18. CutTheRope_2", "18. CutTheRope_2", "{BAD3BD59-BCEC-44E1-A404-7070C2B1AC5A}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Extra\18. CutTheRopeEx2\Classes\AppDelegate.cpp = ..\Contents\Extra\18. CutTheRopeEx2\Classes\AppDelegate.cpp
+		..\Contents\Extra\18. CutTheRopeEx2\Classes\AppDelegate.h = ..\Contents\Extra\18. CutTheRopeEx2\Classes\AppDelegate.h
+		..\Contents\Extra\18. CutTheRopeEx2\Classes\HelloWorldScene.cpp = ..\Contents\Extra\18. CutTheRopeEx2\Classes\HelloWorldScene.cpp
+		..\Contents\Extra\18. CutTheRopeEx2\Classes\HelloWorldScene.h = ..\Contents\Extra\18. CutTheRopeEx2\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "vrope-x", "vrope-x", "{34C78FFF-998E-40B3-B5DB-91A210BA0E83}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Extra\17. CutTheRopeEx1\Classes\vrope-x\vpoint.cpp = ..\Contents\Extra\17. CutTheRopeEx1\Classes\vrope-x\vpoint.cpp
+		..\Contents\Extra\17. CutTheRopeEx1\Classes\vrope-x\vpoint.h = ..\Contents\Extra\17. CutTheRopeEx1\Classes\vrope-x\vpoint.h
+		..\Contents\Extra\17. CutTheRopeEx1\Classes\vrope-x\vrope.cpp = ..\Contents\Extra\17. CutTheRopeEx1\Classes\vrope-x\vrope.cpp
+		..\Contents\Extra\17. CutTheRopeEx1\Classes\vrope-x\vrope.h = ..\Contents\Extra\17. CutTheRopeEx1\Classes\vrope-x\vrope.h
+		..\Contents\Extra\17. CutTheRopeEx1\Classes\vrope-x\vstick.cpp = ..\Contents\Extra\17. CutTheRopeEx1\Classes\vrope-x\vstick.cpp
+		..\Contents\Extra\17. CutTheRopeEx1\Classes\vrope-x\vstick.h = ..\Contents\Extra\17. CutTheRopeEx1\Classes\vrope-x\vstick.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "vrope-x", "vrope-x", "{7FD799D3-FF8D-45F8-A4B5-5D1485ED61FA}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Extra\18. CutTheRopeEx2\Classes\vrope-x\vpoint.cpp = ..\Contents\Extra\18. CutTheRopeEx2\Classes\vrope-x\vpoint.cpp
+		..\Contents\Extra\18. CutTheRopeEx2\Classes\vrope-x\vpoint.h = ..\Contents\Extra\18. CutTheRopeEx2\Classes\vrope-x\vpoint.h
+		..\Contents\Extra\18. CutTheRopeEx2\Classes\vrope-x\vrope.cpp = ..\Contents\Extra\18. CutTheRopeEx2\Classes\vrope-x\vrope.cpp
+		..\Contents\Extra\18. CutTheRopeEx2\Classes\vrope-x\vrope.h = ..\Contents\Extra\18. CutTheRopeEx2\Classes\vrope-x\vrope.h
+		..\Contents\Extra\18. CutTheRopeEx2\Classes\vrope-x\vstick.cpp = ..\Contents\Extra\18. CutTheRopeEx2\Classes\vrope-x\vstick.cpp
+		..\Contents\Extra\18. CutTheRopeEx2\Classes\vrope-x\vstick.h = ..\Contents\Extra\18. CutTheRopeEx2\Classes\vrope-x\vstick.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "19. SQLite", "19. SQLite", "{3A3B13AC-A5F6-4A28-B901-9CBE62644BB2}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Extra\19. SQLite\Classes\AppDelegate.cpp = ..\Contents\Extra\19. SQLite\Classes\AppDelegate.cpp
+		..\Contents\Extra\19. SQLite\Classes\AppDelegate.h = ..\Contents\Extra\19. SQLite\Classes\AppDelegate.h
+		..\Contents\Extra\19. SQLite\Classes\HelloWorldScene.cpp = ..\Contents\Extra\19. SQLite\Classes\HelloWorldScene.cpp
+		..\Contents\Extra\19. SQLite\Classes\HelloWorldScene.h = ..\Contents\Extra\19. SQLite\Classes\HelloWorldScene.h
+		..\Contents\Extra\19. SQLite\Classes\sqlite3.c = ..\Contents\Extra\19. SQLite\Classes\sqlite3.c
+		..\Contents\Extra\19. SQLite\Classes\sqlite3.h = ..\Contents\Extra\19. SQLite\Classes\sqlite3.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20. AStar_Algorithm", "20. AStar_Algorithm", "{1D414585-1F54-4A5F-B5CA-E09F9F693D44}"
+	ProjectSection(SolutionItems) = preProject
+		..\Contents\Extra\20. AStar_Algorithm\Classes\AppDelegate.cpp = ..\Contents\Extra\20. AStar_Algorithm\Classes\AppDelegate.cpp
+		..\Contents\Extra\20. AStar_Algorithm\Classes\AppDelegate.h = ..\Contents\Extra\20. AStar_Algorithm\Classes\AppDelegate.h
+		..\Contents\Extra\20. AStar_Algorithm\Classes\HelloWorldScene.cpp = ..\Contents\Extra\20. AStar_Algorithm\Classes\HelloWorldScene.cpp
+		..\Contents\Extra\20. AStar_Algorithm\Classes\HelloWorldScene.h = ..\Contents\Extra\20. AStar_Algorithm\Classes\HelloWorldScene.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76A39BB2-9B84-4C65-98A5-654D86B86F2A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{76A39BB2-9B84-4C65-98A5-654D86B86F2A}.Debug|Win32.Build.0 = Debug|Win32
+		{76A39BB2-9B84-4C65-98A5-654D86B86F2A}.Release|Win32.ActiveCfg = Release|Win32
+		{76A39BB2-9B84-4C65-98A5-654D86B86F2A}.Release|Win32.Build.0 = Release|Win32
+		{98A51BA8-FC3A-415B-AC8F-8C7BD464E93E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{98A51BA8-FC3A-415B-AC8F-8C7BD464E93E}.Release|Win32.ActiveCfg = Release|Win32
+		{98A51BA8-FC3A-415B-AC8F-8C7BD464E93E}.Release|Win32.Build.0 = Release|Win32
+		{929480E7-23C0-4DF6-8456-096D71547116}.Debug|Win32.ActiveCfg = Debug|Win32
+		{929480E7-23C0-4DF6-8456-096D71547116}.Release|Win32.ActiveCfg = Release|Win32
+		{929480E7-23C0-4DF6-8456-096D71547116}.Release|Win32.Build.0 = Release|Win32
+		{B7C2A162-DEC9-4418-972E-240AB3CBFCAE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B7C2A162-DEC9-4418-972E-240AB3CBFCAE}.Release|Win32.ActiveCfg = Release|Win32
+		{B7C2A162-DEC9-4418-972E-240AB3CBFCAE}.Release|Win32.Build.0 = Release|Win32
+		{012DFF48-A13F-4F52-B07B-F8B9D21CE95B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{012DFF48-A13F-4F52-B07B-F8B9D21CE95B}.Release|Win32.ActiveCfg = Release|Win32
+		{012DFF48-A13F-4F52-B07B-F8B9D21CE95B}.Release|Win32.Build.0 = Release|Win32
+		{41E34993-647E-4282-8384-4AB1AE31A452}.Debug|Win32.ActiveCfg = Debug|Win32
+		{41E34993-647E-4282-8384-4AB1AE31A452}.Release|Win32.ActiveCfg = Release|Win32
+		{41E34993-647E-4282-8384-4AB1AE31A452}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{58ED560E-4BD3-4E5C-8C2F-ECD6D025C3A6} = {C8567D9B-434C-4BAF-B811-A55EAC012819}
+		{6EAFD009-2843-4B19-A90A-C5703C35379B} = {C8567D9B-434C-4BAF-B811-A55EAC012819}
+		{E4D5BAFF-703A-4C46-96C6-0B50EFDEE53D} = {C8567D9B-434C-4BAF-B811-A55EAC012819}
+		{9B7C1EE7-AA83-497B-998E-A4E69BE14768} = {C8567D9B-434C-4BAF-B811-A55EAC012819}
+		{29699E5A-E4BF-4898-A7CE-22F699EEFB71} = {517C1DF2-9984-4694-9563-BF2E2070D76F}
+		{B5D7C1B1-8E83-41E1-8FA1-F2AAEBAA3D40} = {517C1DF2-9984-4694-9563-BF2E2070D76F}
+		{68198D3A-AE08-4654-9706-8D40CE03CDFD} = {517C1DF2-9984-4694-9563-BF2E2070D76F}
+		{86CDD318-F76E-47F1-BAA3-DB489B7DC6E9} = {F4626B4F-2127-4EB1-AF59-704221204C14}
+		{781C9955-D405-45B0-A5AF-6E5FFAE1387F} = {F4626B4F-2127-4EB1-AF59-704221204C14}
+		{3681CFCD-181F-4F09-BD3D-5683751FA839} = {F4626B4F-2127-4EB1-AF59-704221204C14}
+		{D6B195BC-959F-4920-9F5C-E7B65FA12683} = {DDD2C4D5-451E-44E6-8D75-66A3F8DDBEC6}
+		{E094A6BD-06E4-4CD7-A260-1B23DCDC9344} = {DDD2C4D5-451E-44E6-8D75-66A3F8DDBEC6}
+		{72B16441-F0C8-419B-9A44-05321BAA2752} = {DDD2C4D5-451E-44E6-8D75-66A3F8DDBEC6}
+		{2CD0A0EC-5B20-4411-AD0A-148008B4732E} = {DDD2C4D5-451E-44E6-8D75-66A3F8DDBEC6}
+		{F3800FDD-08B4-42C6-886A-6D267DDF1474} = {DDD2C4D5-451E-44E6-8D75-66A3F8DDBEC6}
+		{3B99D84F-57F8-4E16-805B-D325B01D35E1} = {027EF70B-65DC-456D-843F-DC8AE29EF33F}
+		{B40E4850-2754-42C2-890B-76F5B733C84B} = {027EF70B-65DC-456D-843F-DC8AE29EF33F}
+		{057614F8-4715-4862-BCA6-3D95EF5CC277} = {027EF70B-65DC-456D-843F-DC8AE29EF33F}
+		{017ED585-F1D3-4593-B52E-974DE106D3FE} = {B2E639C8-0D38-4E73-A84B-DDC33E931BF7}
+		{79861863-4C87-4782-B0CA-294182DB1142} = {B2E639C8-0D38-4E73-A84B-DDC33E931BF7}
+		{E3D9AF91-B737-45E6-9CF1-A2BE36CC62BE} = {B2E639C8-0D38-4E73-A84B-DDC33E931BF7}
+		{530B9FD7-7CDA-4444-9805-A93DF049EF3F} = {B2E639C8-0D38-4E73-A84B-DDC33E931BF7}
+		{6D5CCD0D-14AC-45D4-AEE5-A0A51D038F36} = {B2E639C8-0D38-4E73-A84B-DDC33E931BF7}
+		{AA104309-C642-4085-9F98-8ED4C4DC557D} = {2CCB7CB5-1A67-4493-89A4-7F8F28D49440}
+		{158AAF66-2F39-4E02-9525-90E00FE4DD31} = {2CCB7CB5-1A67-4493-89A4-7F8F28D49440}
+		{BFA5070B-F5B6-4D49-BE38-8AD53E785E13} = {CC75BA67-0421-41F8-B5F2-A67E0232C67E}
+		{59AA9716-6E25-47CD-96D9-26167B045C51} = {CC75BA67-0421-41F8-B5F2-A67E0232C67E}
+		{0DD022E5-F8E2-4B0E-845D-E28D9C2C8CF1} = {CC75BA67-0421-41F8-B5F2-A67E0232C67E}
+		{61884FFB-DC4C-4BCD-9599-3F95CAD15160} = {CC75BA67-0421-41F8-B5F2-A67E0232C67E}
+		{E405E3F2-F1A8-45DB-BE3C-2C4D1C0382C8} = {CC75BA67-0421-41F8-B5F2-A67E0232C67E}
+		{20F1CC99-36CD-4C43-8CAD-94510C247085} = {CC75BA67-0421-41F8-B5F2-A67E0232C67E}
+		{253485D4-8C82-4EA4-BC2E-E3861DAEF243} = {027EF70B-65DC-456D-843F-DC8AE29EF33F}
+		{D6FEBE95-9CA1-40C7-A1B4-0BED952D04A2} = {DA46D791-3272-426E-B934-0B04EF2FEAC3}
+		{59F3AC0E-154F-4D9D-A124-1E9A7838230E} = {DA46D791-3272-426E-B934-0B04EF2FEAC3}
+		{F78F002A-99FA-46DC-9B3C-27914DEB10DA} = {538A7273-B891-45FE-A87E-0350EDD77314}
+		{B0F1DC63-FC4D-40CB-B056-2B0704CB72E0} = {57843A36-9365-4B51-816B-1F5F0BEA4217}
+		{6F5F8467-8C8A-4279-AE12-205A198727C7} = {57843A36-9365-4B51-816B-1F5F0BEA4217}
+		{0BE71E7F-755A-49ED-A96A-F34DAD21BBA3} = {62E4B1E8-D8BA-40C1-A11F-DE47C69DBEB4}
+		{0615B164-4891-4FF4-8C8C-37A50B62565B} = {62E4B1E8-D8BA-40C1-A11F-DE47C69DBEB4}
+		{8158B8B9-AC1E-45FA-91F2-E80BCBBD8361} = {8C9E2AF9-F348-47E2-8797-AA5FA1090897}
+		{2D532887-D9DE-4D0B-AD21-1EC7DEA5C11A} = {8C9E2AF9-F348-47E2-8797-AA5FA1090897}
+		{4FAFC422-ADFF-4895-8EAE-620FCB88D289} = {8C9E2AF9-F348-47E2-8797-AA5FA1090897}
+		{A809699D-AEBB-47F8-B495-0DEDEF821631} = {8C9E2AF9-F348-47E2-8797-AA5FA1090897}
+		{918A102E-0F49-417A-B190-F6284EB64F1C} = {57843A36-9365-4B51-816B-1F5F0BEA4217}
+		{0D0407CC-2625-4A65-8D64-2D824B9263B7} = {57843A36-9365-4B51-816B-1F5F0BEA4217}
+		{DC4AE1DA-B39E-49B3-B95E-C6D24E03B045} = {027EF70B-65DC-456D-843F-DC8AE29EF33F}
+		{8BC69990-6A6B-4F09-B6B5-AF336D597021} = {E3C63C79-DF19-43F1-9B70-AEEB1BE6A705}
+		{747A44FB-FDAB-4950-9392-6C65A3904729} = {A3DC1CE5-F24B-4F77-BEC6-3E7ADF772905}
+		{EE8E6811-B2AB-479E-9815-5DE500E7A9C9} = {A3DC1CE5-F24B-4F77-BEC6-3E7ADF772905}
+		{B7DB9170-16E6-4A4E-95E7-2AD8AE2E6F2F} = {A3DC1CE5-F24B-4F77-BEC6-3E7ADF772905}
+		{3E070F23-2817-43AE-B6AB-92A9314107CA} = {A3DC1CE5-F24B-4F77-BEC6-3E7ADF772905}
+		{689CDE1E-EA3B-49FA-ABDC-5BDA5370BD0A} = {A3DC1CE5-F24B-4F77-BEC6-3E7ADF772905}
+		{917ADD48-3FE9-4B3C-97A1-9EAA43D2A362} = {A3DC1CE5-F24B-4F77-BEC6-3E7ADF772905}
+		{E5DFC7A8-84C8-4196-9973-D7FA2D5FD0A2} = {57843A36-9365-4B51-816B-1F5F0BEA4217}
+		{23B9D43A-D277-46AE-A3FE-37F4297B626E} = {334F8320-5CED-432A-85EF-1195D2596938}
+		{75F7E612-655E-4024-9E44-11A9E72B45F3} = {027EF70B-65DC-456D-843F-DC8AE29EF33F}
+		{304B9588-F383-431F-A4B0-6E9FEE0C3A2C} = {027EF70B-65DC-456D-843F-DC8AE29EF33F}
+		{7D7C51A8-1C41-49EA-A889-8A8CD99F4624} = {E3C63C79-DF19-43F1-9B70-AEEB1BE6A705}
+		{F8A54AB9-BAD6-4F28-B799-E39528E16B48} = {E3C63C79-DF19-43F1-9B70-AEEB1BE6A705}
+		{9E1B737C-038F-4DAD-8596-E8AF8CF1AE4B} = {8D2E96AA-F4BD-41DB-9050-BC380D926264}
+		{E25A9C8C-F9AE-4C1C-8C11-316BA11828DF} = {57843A36-9365-4B51-816B-1F5F0BEA4217}
+		{01EBBC17-3445-437A-AE96-6EED7C56BD5C} = {57843A36-9365-4B51-816B-1F5F0BEA4217}
+		{76D8173E-04E4-4BBF-BBE8-04D068B3AA2F} = {027EF70B-65DC-456D-843F-DC8AE29EF33F}
+		{1D3E6075-CD4E-473E-B090-1ADBED869BC8} = {A3DC1CE5-F24B-4F77-BEC6-3E7ADF772905}
+		{FE1653C8-6852-46BB-8B37-A7A0CF20CCF6} = {A3DC1CE5-F24B-4F77-BEC6-3E7ADF772905}
+		{9A78134E-FAF0-40A6-A35F-821828F129DA} = {3EB7D1A1-F649-432B-AC0D-401FCD1FE476}
+		{33DCF9B1-9754-4DAD-8A0B-248DEEFDEE53} = {BF75A4D4-50F9-47A3-A2A9-31AD85C4BAD9}
+		{5CB281B4-A8CC-4854-AA3D-959A512357B6} = {63433213-F23B-4935-B552-6BC48FBD3177}
+		{5191BC2E-A3B5-4CA5-8FF2-878BFADC2EA4} = {33DCF9B1-9754-4DAD-8A0B-248DEEFDEE53}
+		{7A11573E-695F-43C1-A58C-4D18669C91DE} = {5CB281B4-A8CC-4854-AA3D-959A512357B6}
+		{F54A1414-8B4E-4433-A8B8-109785570A96} = {7A11573E-695F-43C1-A58C-4D18669C91DE}
+		{5F4D84D7-EF04-4467-AB81-737D9BC8F880} = {CA78B4F5-26BF-49AF-B26C-17814DCDF3B5}
+		{147E08C2-B82D-409E-8CE9-F4DE9470592A} = {F1006626-9A72-4C37-9797-BF7F735D0DDC}
+		{3C8F67FE-3E1E-48D6-ACC1-B91FD08491FB} = {4CD033E6-674E-452E-9183-AE212EEA3EA7}
+		{6F159C47-8F2D-40B7-8AC0-2576A5FD1F14} = {027EF70B-65DC-456D-843F-DC8AE29EF33F}
+		{6E43AD88-7EF1-4D9D-A691-2F35F6B20996} = {57843A36-9365-4B51-816B-1F5F0BEA4217}
+		{A381D617-96A0-4B98-A1F9-51A6D32DCF9C} = {57843A36-9365-4B51-816B-1F5F0BEA4217}
+		{0FC1C0DB-66E1-4C7C-BFBF-1D68EED850B9} = {027EF70B-65DC-456D-843F-DC8AE29EF33F}
+		{65156BA2-82C4-4DA7-979C-0C3607EFBB9B} = {E23E1FC9-F0B8-44E7-9C0F-901DE898D549}
+		{63F7F995-CADF-4880-B3F1-1B19EE76100F} = {E23E1FC9-F0B8-44E7-9C0F-901DE898D549}
+		{69F65868-96D2-48E1-B6A8-7861766668F7} = {E23E1FC9-F0B8-44E7-9C0F-901DE898D549}
+		{4AD62959-F163-4311-8F0F-85AC77554C9A} = {E23E1FC9-F0B8-44E7-9C0F-901DE898D549}
+		{3C55FE3D-B374-4370-B07F-07C139889871} = {57843A36-9365-4B51-816B-1F5F0BEA4217}
+		{FD4841BA-787F-4E45-B949-C9762AD8B34E} = {57843A36-9365-4B51-816B-1F5F0BEA4217}
+		{6C782A35-EC3E-4152-9704-89720FBA7D30} = {57843A36-9365-4B51-816B-1F5F0BEA4217}
+		{6E704BB5-CAD1-4A03-A1A6-9E12CBB057E4} = {57843A36-9365-4B51-816B-1F5F0BEA4217}
+		{0EEAC627-970B-4319-B0E4-17266D7839BD} = {57843A36-9365-4B51-816B-1F5F0BEA4217}
+		{650E204A-D140-42B2-929E-5B441BE4EABD} = {57843A36-9365-4B51-816B-1F5F0BEA4217}
+		{52CCDB34-70DA-4B64-BA85-2065273CBC70} = {A7D51EDA-D9D7-4411-8056-9134C59EBE99}
+		{1B9224E0-D883-4C6C-AB5A-97DDE39A367E} = {027EF70B-65DC-456D-843F-DC8AE29EF33F}
+		{850B0AFD-065B-4A31-91EE-FDC273E838AF} = {A7D51EDA-D9D7-4411-8056-9134C59EBE99}
+		{94150162-276F-40F6-9471-5FA5C45518C8} = {A7D51EDA-D9D7-4411-8056-9134C59EBE99}
+		{8431A111-0FE7-442A-BB6C-CF56504DF138} = {A7D51EDA-D9D7-4411-8056-9134C59EBE99}
+		{753E81EB-02DC-4F94-974A-BAC60D24C659} = {A7D51EDA-D9D7-4411-8056-9134C59EBE99}
+		{DCE71747-000C-48B9-885F-4FB945F9E889} = {A7D51EDA-D9D7-4411-8056-9134C59EBE99}
+		{6D64FA74-6AA1-45E2-8A07-2FC519DA4AC4} = {A7D51EDA-D9D7-4411-8056-9134C59EBE99}
+		{61B2594D-8F95-45C8-A0F9-8AA9E445CACC} = {A7D51EDA-D9D7-4411-8056-9134C59EBE99}
+		{993E54CA-525F-43E2-9ACB-643F3085005B} = {A7D51EDA-D9D7-4411-8056-9134C59EBE99}
+		{6DD56C33-61A1-43AB-AB01-18C49F5E1F4E} = {A7D51EDA-D9D7-4411-8056-9134C59EBE99}
+		{721097E4-1511-4C5F-B86B-EB35E2D0D6D5} = {A7D51EDA-D9D7-4411-8056-9134C59EBE99}
+		{A0B2FD67-9EEE-4DAE-83F2-6C8CCC3D380F} = {A7D51EDA-D9D7-4411-8056-9134C59EBE99}
+		{6EA5A3F7-20E1-4932-A3FC-A92F869C1BB9} = {A7D51EDA-D9D7-4411-8056-9134C59EBE99}
+		{15296FD1-EEE3-4CA2-B9A8-276B370E7ACA} = {A7D51EDA-D9D7-4411-8056-9134C59EBE99}
+		{AD481CB3-7890-4B01-AD15-CF1212247BA9} = {A7D51EDA-D9D7-4411-8056-9134C59EBE99}
+		{2252DE20-3ABE-4DA4-8AD7-E3BE28317EF4} = {A7D51EDA-D9D7-4411-8056-9134C59EBE99}
+		{34F1F756-DD62-4158-BC73-5BB84F95BED8} = {A7D51EDA-D9D7-4411-8056-9134C59EBE99}
+		{AB9C1FCA-5504-43F4-86E5-74C190F288F4} = {A7D51EDA-D9D7-4411-8056-9134C59EBE99}
+		{F6113707-DF40-4B41-A3C0-EB86607A58D4} = {A7D51EDA-D9D7-4411-8056-9134C59EBE99}
+		{47739391-4695-4BFA-8131-120F20020B0F} = {A7D51EDA-D9D7-4411-8056-9134C59EBE99}
+		{417AEF4D-269D-467B-AD41-5F8F36A8109D} = {027EF70B-65DC-456D-843F-DC8AE29EF33F}
+		{F084D952-2F7D-4B1E-85CC-C800D86166DD} = {57843A36-9365-4B51-816B-1F5F0BEA4217}
+		{2338106A-AF9D-460D-A15D-E3F6004D3452} = {EC0ECB83-355E-4493-80B6-7B7E7FA1743A}
+		{FA1D7507-0A3C-482D-A1DE-0AF65DCEFDB0} = {EC0ECB83-355E-4493-80B6-7B7E7FA1743A}
+		{94E53D2F-DA6B-42AA-B30C-7550622669D7} = {EC0ECB83-355E-4493-80B6-7B7E7FA1743A}
+		{4C4840BF-A87E-4FAD-8279-6DAF20086221} = {94E53D2F-DA6B-42AA-B30C-7550622669D7}
+		{64027139-7FBE-4B96-9C5A-01139BA76F44} = {57843A36-9365-4B51-816B-1F5F0BEA4217}
+		{BAD3BD59-BCEC-44E1-A404-7070C2B1AC5A} = {57843A36-9365-4B51-816B-1F5F0BEA4217}
+		{34C78FFF-998E-40B3-B5DB-91A210BA0E83} = {64027139-7FBE-4B96-9C5A-01139BA76F44}
+		{7FD799D3-FF8D-45F8-A4B5-5D1485ED61FA} = {BAD3BD59-BCEC-44E1-A404-7070C2B1AC5A}
+		{3A3B13AC-A5F6-4A28-B901-9CBE62644BB2} = {57843A36-9365-4B51-816B-1F5F0BEA4217}
+		{1D414585-1F54-4A5F-B5CA-E09F9F693D44} = {57843A36-9365-4B51-816B-1F5F0BEA4217}
+	EndGlobalSection
+EndGlobal

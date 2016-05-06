@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="7" height="7" tilewidth="32" tileheight="32" nextobjectid="4">
+ <tileset firstgid="1" name="Objects" tilewidth="32" tileheight="32" spacing="1" margin="1" tilecount="48" columns="8">
+  <image source="tmw_desert_spacing.png" width="265" height="199"/>
+ </tileset>
+ <tileset firstgid="49" name="MetaInfo" tilewidth="32" tileheight="32" spacing="1" margin="1" tilecount="2" columns="2">
+  <image source="metaset.png" width="67" height="34"/>
+ </tileset>
+ <layer name="Background" width="7" height="7">
+  <data encoding="base64">
+   HgAAACIAAAAeAAAAIgAAAB4AAAAiAAAAHgAAACIAAAAeAAAAIgAAAB4AAAAiAAAAHgAAACIAAAAeAAAAIgAAAB4AAAAfAAAAHgAAACIAAAAeAAAAIgAAAB4AAAAiAAAAHwAAACIAAAAeAAAAIgAAAB4AAAAiAAAAHgAAAB8AAAAeAAAAIgAAAB4AAAAiAAAAHgAAACIAAAAeAAAAIgAAAB4AAAAiAAAAHgAAACIAAAAeAAAAIgAAAB4AAAAiAAAAHgAAAA==
+  </data>
+ </layer>
+ <layer name="MetaInfo" width="7" height="7">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+ <objectgroup name="Objects">
+  <object id="1" name="SpawnPoint" x="47" y="99"/>
+  <object id="2" name="Destination" x="166" y="99"/>
+ </objectgroup>
+ <layer name="Items" width="7" height="7">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+</map>

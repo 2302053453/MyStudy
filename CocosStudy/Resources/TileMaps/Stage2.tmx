@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="32" tileheight="32" nextobjectid="45">
+ <tileset firstgid="1" name="background" tilewidth="32" tileheight="32" spacing="1" margin="1" tilecount="48" columns="8">
+  <image source="tmw_desert_spacing.png" width="265" height="199"/>
+ </tileset>
+ <tileset firstgid="49" name="metaset" tilewidth="32" tileheight="32" spacing="1" margin="1" tilecount="10" columns="5">
+  <image source="metaset10way.png" width="166" height="67"/>
+  <tile id="0">
+   <properties>
+    <property name="Weapon" value="Sword"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Weapon" value="Mace"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Weapon" value="Holy_Sword"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="Weapon" value="Key"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="isWall" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="Weak" value="Sword"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="Weak" value="Mace"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="Weak" value="Holy_Sword"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="Weak" value="Key"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="15" height="10">
+  <data encoding="base64">
+   IAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAAB4AAAAeAAAAHgAAAB4AAAAeAAAAIAAAAB4AAAAeAAAAIAAAACAAAAAeAAAAHgAAAB4AAAAeAAAAIAAAACAAAAAgAAAAIAAAAB4AAAAeAAAAIAAAACAAAAAeAAAAHgAAAB4AAAAeAAAAIAAAACAAAAAeAAAAHgAAAB4AAAAeAAAAIAAAAB4AAAAeAAAAIAAAACAAAAAgAAAAIAAAAB4AAAAgAAAAIAAAACAAAAAgAAAAHgAAACAAAAAgAAAAIAAAAB4AAAAeAAAAIAAAAB4AAAAeAAAAIAAAAB4AAAAeAAAAHgAAAB4AAAAeAAAAHgAAACAAAAAeAAAAIAAAAB4AAAAeAAAAIAAAAB4AAAAeAAAAHgAAACAAAAAgAAAAHgAAAB4AAAAgAAAAIAAAAB4AAAAeAAAAIAAAAB4AAAAeAAAAIAAAAB4AAAAeAAAAHgAAAB4AAAAeAAAAHgAAAB4AAAAeAAAAHgAAAB4AAAAeAAAAIAAAAB4AAAAeAAAAIAAAACAAAAAgAAAAHgAAAB4AAAAeAAAAIAAAACAAAAAeAAAAHgAAAB4AAAAeAAAAIAAAAB4AAAAeAAAAHgAAAB4AAAAgAAAAIAAAACAAAAAeAAAAIAAAACAAAAAeAAAAIAAAACAAAAAgAAAAIAAAAB4AAAAeAAAAHgAAAB4AAAAeAAAAHgAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAAB4AAAAeAAAAHgAAAB4AAAAeAAAA
+  </data>
+ </layer>
+ <layer name="Metainfo" width="15" height="10">
+  <properties>
+   <property name="isWall" type="bool" value="false"/>
+  </properties>
+  <data encoding="base64">
+   NQAAADUAAAA1AAAANQAAADUAAAA1AAAANQAAADUAAAA1AAAANQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANQAAADIAAAA2AAAANQAAADUAAAAAAAAAAAAAAAAAAAAAAAAANQAAADUAAAA1AAAANQAAAAAAAAAAAAAANQAAADUAAAAxAAAAOAAAAAAAAAAAAAAANQAAADUAAAAyAAAAAAAAADcAAAAzAAAANQAAAAAAAAAAAAAANQAAADUAAAA1AAAANQAAADYAAAA1AAAANQAAADUAAAA1AAAAOAAAADUAAAA1AAAANQAAAAAAAAAAAAAANQAAADkAAAAAAAAANQAAAAAAAAAzAAAAOAAAADcAAAAAAAAAMgAAADUAAAA0AAAANQAAAAAAAAAAAAAANQAAAAAAAAAAAAAAAAAAADUAAAA1AAAAAAAAAAAAAAA1AAAANQAAAAAAAAAAAAAANQAAAAAAAAAAAAAANQAAAAAAAAAAAAAAAAAAADYAAAAyAAAANwAAAAAAAAAxAAAANwAAAAAAAAAAAAAANQAAAAAAAAAAAAAANQAAADUAAAA1AAAAAAAAAAAAAAA2AAAANQAAADUAAAA3AAAAAAAAAAAAAAAAAAAANQAAAAAAAAAAAAAAAAAAAAAAAAA1AAAANQAAADUAAAAAAAAANQAAADUAAAAxAAAANQAAADUAAAA1AAAANQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADUAAAA1AAAANQAAADUAAAA1AAAANQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  </data>
+ </layer>
+ <objectgroup name="Weapons" visible="0">
+  <object id="16" name="Mace_1" x="273" y="78"/>
+  <object id="17" name="Mace_2" x="308" y="143"/>
+  <object id="18" name="Mace_3" x="174" y="207"/>
+  <object id="19" name="Mace_4" x="46" y="47"/>
+  <object id="24" name="Holy_Sword_1" x="368" y="77"/>
+  <object id="25" name="Holy_Sword_2" x="172" y="139"/>
+  <object id="26" name="Sword_1" x="79" y="77"/>
+  <object id="27" name="Sword_2" x="268" y="207"/>
+  <object id="28" name="Sword_3" x="269" y="268"/>
+  <object id="30" name="Key_1" x="368" y="144"/>
+ </objectgroup>
+ <objectgroup name="Enemies" visible="0">
+  <object id="31" name="Slime_1" x="331" y="75"/>
+  <object id="32" name="Slime_2" x="232" y="141"/>
+  <object id="33" name="Slime_3" x="302" y="207"/>
+  <object id="34" name="Slime_4" x="271" y="236"/>
+  <object id="35" name="Slime_5" x="205" y="204"/>
+  <object id="36" name="Devil_1" x="306" y="115"/>
+  <object id="37" name="Devil_2" x="110" y="79"/>
+  <object id="38" name="Devil_3" x="207" y="140"/>
+  <object id="39" name="Wolf_1" x="79" y="45"/>
+  <object id="40" name="Wolf_2" x="141" y="110"/>
+  <object id="41" name="Wolf_3" x="145" y="208"/>
+  <object id="42" name="Wolf_4" x="176" y="241"/>
+  <object id="43" name="Chest_1" x="46" y="145"/>
+ </objectgroup>
+ <objectgroup name="Player" visible="0">
+  <object id="44" name="StartPoint" x="208" y="50"/>
+ </objectgroup>
+</map>
